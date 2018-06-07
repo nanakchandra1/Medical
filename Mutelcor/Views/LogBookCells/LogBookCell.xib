@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="logBookCellID" rowHeight="76" id="KGk-i7-Jjw" customClass="LogBookCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W79-4w-Uqb">
+                        <rect key="frame" x="17" y="23" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="RdK-z8-7I1"/>
+                            <constraint firstAttribute="width" secondItem="W79-4w-Uqb" secondAttribute="height" id="xLw-jE-wk7"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="Abu-A8-qnj">
+                        <rect key="frame" x="62" y="22.5" width="244.5" height="32"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gN3-ai-i4f">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="32"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iev-VO-j0U">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="16"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="13.600000381469727"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKA-Ee-QtZ">
+                                        <rect key="frame" x="0.0" y="16" width="150" height="16"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="11.300000190734863"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ovc-MG-2rb"/>
+                                    <constraint firstAttribute="height" constant="32" id="dUW-mK-x6V"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVM-84-b67">
+                                <rect key="frame" x="150" y="0.0" width="94.5" height="32"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="15.600000381469727"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-ZS-tnx">
+                        <rect key="frame" x="0.0" y="74.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="XYb-Yh-mGU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4CH-ZS-tnx" secondAttribute="bottom" id="7OA-fv-xcz"/>
+                    <constraint firstItem="W79-4w-Uqb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="R03-3U-UYr"/>
+                    <constraint firstItem="Abu-A8-qnj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="U54-Vy-rqe"/>
+                    <constraint firstItem="W79-4w-Uqb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="hcf-T6-vTY"/>
+                    <constraint firstItem="4CH-ZS-tnx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ky1-tx-l0E"/>
+                    <constraint firstAttribute="trailing" secondItem="Abu-A8-qnj" secondAttribute="trailing" constant="13.5" id="rGx-By-Veu"/>
+                    <constraint firstItem="Abu-A8-qnj" firstAttribute="leading" secondItem="W79-4w-Uqb" secondAttribute="trailing" constant="15" id="ylq-aY-LJz"/>
+                    <constraint firstAttribute="trailing" secondItem="4CH-ZS-tnx" secondAttribute="trailing" id="zTl-1c-1of"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellImageOult" destination="W79-4w-Uqb" id="b5z-6z-xtC"/>
+                <outlet property="dateLabelOutlt" destination="JKA-Ee-QtZ" id="dxP-3L-7bI"/>
+                <outlet property="logsAmountLabel" destination="qVM-84-b67" id="qN6-bR-Hp3"/>
+                <outlet property="logsNameLabelOutlt" destination="Iev-VO-j0U" id="CzP-st-tnh"/>
+            </connections>
+            <point key="canvasLocation" x="-79" y="-37"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="recurrenceCellID" rowHeight="250" id="KGk-i7-Jjw" customClass="RecurrenceCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eP4-oi-1ox">
+                        <rect key="frame" x="26.5" y="30" width="267" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CMX-sk-eQk">
+                        <rect key="frame" x="26.5" y="76" width="267" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGE-Cs-oFZ">
+                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLd-v3-piz">
+                                <rect key="frame" x="69.5" y="0.0" width="59" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTw-3T-jzc">
+                                <rect key="frame" x="138.5" y="0.0" width="59.5" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITM-W7-V6Y">
+                                <rect key="frame" x="208" y="0.0" width="59" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hai-fy-B4x">
+                        <rect key="frame" x="58.5" y="116" width="203" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDJ-xn-oBd">
+                                <rect key="frame" x="0.0" y="0.0" width="61" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRd-gR-do4">
+                                <rect key="frame" x="71" y="0.0" width="61" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qn4-aY-oyR">
+                                <rect key="frame" x="142" y="0.0" width="61" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hai-fy-B4x" firstAttribute="leading" secondItem="CMX-sk-eQk" secondAttribute="leading" constant="32" id="3NR-Gz-GAw"/>
+                    <constraint firstItem="eP4-oi-1ox" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26.5" id="85f-Eg-WR5"/>
+                    <constraint firstItem="CMX-sk-eQk" firstAttribute="leading" secondItem="eP4-oi-1ox" secondAttribute="leading" id="Ly3-EE-7RL"/>
+                    <constraint firstAttribute="trailing" secondItem="eP4-oi-1ox" secondAttribute="trailing" constant="26.5" id="Paw-ue-t69"/>
+                    <constraint firstItem="CMX-sk-eQk" firstAttribute="trailing" secondItem="eP4-oi-1ox" secondAttribute="trailing" id="Tu2-Yz-zP2"/>
+                    <constraint firstItem="CMX-sk-eQk" firstAttribute="top" secondItem="eP4-oi-1ox" secondAttribute="bottom" constant="25.5" id="XDa-I7-jim"/>
+                    <constraint firstItem="hai-fy-B4x" firstAttribute="trailing" secondItem="CMX-sk-eQk" secondAttribute="trailing" constant="-32" id="c6t-Ig-tYO"/>
+                    <constraint firstItem="hai-fy-B4x" firstAttribute="top" secondItem="CMX-sk-eQk" secondAttribute="bottom" constant="10" id="iT9-iw-hmV"/>
+                    <constraint firstItem="eP4-oi-1ox" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="vZR-Lo-Fxl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTitle" destination="eP4-oi-1ox" id="9D9-23-a1l"/>
+                <outlet property="fridayBtnOutlt" destination="QRd-gR-do4" id="FM4-A7-q9d"/>
+                <outlet property="mondayBtnOutlt" destination="WLd-v3-piz" id="cny-dk-E4p"/>
+                <outlet property="saturdayBtnOutlt" destination="qn4-aY-oyR" id="6EQ-ya-ZjF"/>
+                <outlet property="sundayBtnOutlt" destination="QGE-Cs-oFZ" id="EjC-uw-SoZ"/>
+                <outlet property="thursdayBtnOutlt" destination="pDJ-xn-oBd" id="Gve-MF-taJ"/>
+                <outlet property="tuesdayBtnOutlt" destination="FTw-3T-jzc" id="mNb-oh-npH"/>
+                <outlet property="wednesdayBtnOUtlt" destination="ITM-W7-V6Y" id="xhC-AL-s2r"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="-25"/>
+        </tableViewCell>
+    </objects>
+</document>

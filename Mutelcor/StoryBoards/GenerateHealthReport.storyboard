@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Genrate Health ReportVC-->
+        <scene sceneID="ZbH-LO-wea">
+            <objects>
+                <viewController storyboardIdentifier="GenrateHealthReportVC" id="FYe-DR-Y6k" customClass="GenrateHealthReportVC" customModule="Mutelcore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gyP-iS-0xa"/>
+                        <viewControllerLayoutGuide type="bottom" id="nl7-Ae-LWE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xh3-zL-sx3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under Development" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uq7-if-Bly">
+                                <rect key="frame" x="87.5" y="292" width="200" height="23.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="nT7-6F-hdx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZL-gi-0mk" customClass="TransitionButton" customModule="TransitionButton">
+                                <rect key="frame" x="50" y="415.5" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MSb-J0-8wx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sendBtnTapped:" destination="FYe-DR-Y6k" eventType="touchUpInside" id="Kk0-L7-17C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uq7-if-Bly" firstAttribute="centerY" secondItem="xh3-zL-sx3" secondAttribute="centerY" constant="-30" id="TFm-DG-iX4"/>
+                            <constraint firstItem="8ZL-gi-0mk" firstAttribute="leading" secondItem="xh3-zL-sx3" secondAttribute="leading" constant="50" id="Zrg-lI-s0S"/>
+                            <constraint firstItem="8ZL-gi-0mk" firstAttribute="top" secondItem="uq7-if-Bly" secondAttribute="bottom" constant="100" id="aFY-Mg-zNU"/>
+                            <constraint firstAttribute="trailing" secondItem="8ZL-gi-0mk" secondAttribute="trailing" constant="50" id="idc-Pj-pi6"/>
+                            <constraint firstItem="uq7-if-Bly" firstAttribute="centerX" secondItem="xh3-zL-sx3" secondAttribute="centerX" id="jyI-0H-a40"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmationText" destination="uq7-if-Bly" id="04O-bN-dT8"/>
+                        <outlet property="sendBtn" destination="8ZL-gi-0mk" id="v8e-nN-G7w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUP-rO-2Zx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="141"/>
+        </scene>
+    </scenes>
+</document>

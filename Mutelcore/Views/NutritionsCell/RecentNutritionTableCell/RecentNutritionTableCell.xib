@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RecentNutritionTableCell" rowHeight="60" id="KGk-i7-Jjw" customClass="RecentNutritionTableCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjL-zd-LlW">
+                        <rect key="frame" x="30" y="13.5" width="220" height="33.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idli, 4 pcs, 100 Cal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2V-RL-B4p">
+                                <rect key="frame" x="0.0" y="0.0" width="220" height="19"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="16"/>
+                                <color key="textColor" red="0.0039215686274509803" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carb : 10g , Fats : 10g, Protein : 10g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuK-KJ-0YL">
+                                <rect key="frame" x="0.0" y="17" width="220" height="16.5"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O2V-RL-B4p" firstAttribute="leading" secondItem="bjL-zd-LlW" secondAttribute="leading" id="1HC-qT-GJQ"/>
+                            <constraint firstAttribute="trailing" secondItem="RuK-KJ-0YL" secondAttribute="trailing" id="3uO-rh-9UO"/>
+                            <constraint firstItem="RuK-KJ-0YL" firstAttribute="top" secondItem="O2V-RL-B4p" secondAttribute="bottom" constant="-2" id="8GC-IQ-las"/>
+                            <constraint firstItem="RuK-KJ-0YL" firstAttribute="leading" secondItem="bjL-zd-LlW" secondAttribute="leading" id="Cfb-bE-yaQ"/>
+                            <constraint firstAttribute="trailing" secondItem="O2V-RL-B4p" secondAttribute="trailing" id="ECr-m6-Fdx"/>
+                            <constraint firstItem="O2V-RL-B4p" firstAttribute="top" secondItem="bjL-zd-LlW" secondAttribute="top" id="dmj-WC-WTz"/>
+                            <constraint firstAttribute="bottom" secondItem="RuK-KJ-0YL" secondAttribute="bottom" id="tXI-7m-rtQ"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQV-BJ-aID">
+                        <rect key="frame" x="260" y="0.0" width="60" height="59.5"/>
+                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="30" maxY="0.0"/>
+                        <state key="normal" image="icAddmenuAdd"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bjL-zd-LlW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="0dn-t2-KWw"/>
+                    <constraint firstAttribute="bottom" secondItem="pQV-BJ-aID" secondAttribute="bottom" id="RzS-jW-59W"/>
+                    <constraint firstItem="pQV-BJ-aID" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Y0I-cr-YT5"/>
+                    <constraint firstItem="pQV-BJ-aID" firstAttribute="leading" secondItem="bjL-zd-LlW" secondAttribute="trailing" constant="10" id="brK-9N-ts4"/>
+                    <constraint firstItem="bjL-zd-LlW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="l2O-C5-q7w"/>
+                    <constraint firstAttribute="trailing" secondItem="pQV-BJ-aID" secondAttribute="trailing" id="oha-tZ-cHQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addRecentNutritionBtn" destination="pQV-BJ-aID" id="6AP-co-Saw"/>
+                <outlet property="foodNameLabel" destination="O2V-RL-B4p" id="FhY-el-M44"/>
+                <outlet property="foodNutrientLabel" destination="RuK-KJ-0YL" id="neQ-VM-VTI"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icAddmenuAdd" width="20" height="20"/>
+    </resources>
+</document>

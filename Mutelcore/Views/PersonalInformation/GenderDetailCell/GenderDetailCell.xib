@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Semibold.otf">
+            <string>SFUIDisplay-Semibold</string>
+        </array>
+        <array key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="genderDetailCell" rowHeight="41" id="KGk-i7-Jjw" customClass="GenderDetailCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="41"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAe-VP-BAx">
+                        <rect key="frame" x="22" y="40.5" width="276" height="1"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="grG-Gb-NeJ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmm-ES-bfI">
+                        <rect key="frame" x="22" y="15" width="57.5" height="20.5"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="16"/>
+                        <color key="textColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.73725490196078436" green="0.74117647058823533" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="P9f-cN-SUa">
+                        <rect key="frame" x="165" y="11" width="123" height="29"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odg-09-VUo">
+                                <rect key="frame" x="0.0" y="6.5" width="30" height="16.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="13.600000381469727"/>
+                                <color key="textColor" red="0.1176470588" green="0.68627450980000004" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raJ-jB-XJi">
+                                <rect key="frame" x="37" y="0.0" width="34" height="29"/>
+                                <state key="normal" image="personal_info_switch_on"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Female" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwk-dN-bek">
+                                <rect key="frame" x="78" y="6.5" width="45" height="16.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="13.600000381469727"/>
+                                <color key="textColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jAe-VP-BAx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="5E1-fx-TrB"/>
+                    <constraint firstItem="mmm-ES-bfI" firstAttribute="leading" secondItem="jAe-VP-BAx" secondAttribute="leading" id="7Y8-BD-Tcp"/>
+                    <constraint firstAttribute="bottom" secondItem="jAe-VP-BAx" secondAttribute="bottom" id="O0o-Dw-Yjg"/>
+                    <constraint firstItem="jAe-VP-BAx" firstAttribute="top" secondItem="mmm-ES-bfI" secondAttribute="bottom" constant="5" id="VUs-3N-fEa"/>
+                    <constraint firstItem="P9f-cN-SUa" firstAttribute="trailing" secondItem="jAe-VP-BAx" secondAttribute="trailing" constant="-10" id="XF3-3I-ZCB"/>
+                    <constraint firstItem="P9f-cN-SUa" firstAttribute="centerY" secondItem="mmm-ES-bfI" secondAttribute="centerY" id="fp6-77-9Iy"/>
+                    <constraint firstAttribute="trailing" secondItem="jAe-VP-BAx" secondAttribute="trailing" constant="22" id="o4u-LE-ISP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTitle" destination="mmm-ES-bfI" id="obf-pU-5Ff"/>
+                <outlet property="femaleLabel" destination="Kwk-dN-bek" id="yEd-OR-Hzl"/>
+                <outlet property="genderBtn" destination="raJ-jB-XJi" id="ClN-F7-taz"/>
+                <outlet property="maleLabel" destination="odg-09-VUo" id="2Ay-83-20B"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="personal_info_switch_on" width="34" height="29"/>
+    </resources>
+</document>

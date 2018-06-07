@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="editActivityCellID" rowHeight="84" id="KGk-i7-Jjw" customClass="EditActivityCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwA-AP-NZT">
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="WlL-Rz-w3i"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVZ-yO-7QZ">
+                        <rect key="frame" x="26" y="11" width="326" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="walking" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T13-fR-aL4">
+                                <rect key="frame" x="0.0" y="0.0" width="261" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kjj-8J-YcO">
+                                <rect key="frame" x="261" y="0.0" width="65" height="47"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEw-RF-7Fd">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="47"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfc-Vm-fa0">
+                                        <rect key="frame" x="35" y="0.0" width="30" height="47"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zbG-Vo-k3P">
+                        <rect key="frame" x="26" y="63" width="144" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21 Jan 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPm-Af-vx4">
+                                <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUl-Fc-cdc">
+                                <rect key="frame" x="101" y="0.0" width="43" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="Znz-lz-lhJ"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zwA-AP-NZT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0VK-nx-iTg"/>
+                    <constraint firstItem="YVZ-yO-7QZ" firstAttribute="top" secondItem="zwA-AP-NZT" secondAttribute="bottom" constant="10" id="14m-1s-FRd"/>
+                    <constraint firstItem="zwA-AP-NZT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NnG-XS-fuK"/>
+                    <constraint firstItem="zbG-Vo-k3P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="R5L-yc-OxO"/>
+                    <constraint firstAttribute="trailing" secondItem="zwA-AP-NZT" secondAttribute="trailing" id="Xwc-bs-132"/>
+                    <constraint firstAttribute="trailing" secondItem="YVZ-yO-7QZ" secondAttribute="trailing" constant="26" id="d9h-Ri-NRi"/>
+                    <constraint firstItem="zbG-Vo-k3P" firstAttribute="top" secondItem="YVZ-yO-7QZ" secondAttribute="bottom" constant="5" id="ptV-Zj-AvY"/>
+                    <constraint firstItem="YVZ-yO-7QZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="vd8-Lh-Fdl"/>
+                    <constraint firstAttribute="bottom" secondItem="zbG-Vo-k3P" secondAttribute="bottom" id="yLH-A6-g9c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityNameLabel" destination="T13-fR-aL4" id="qmx-lU-QVH"/>
+                <outlet property="dateLabel" destination="EPm-Af-vx4" id="tK4-mC-T89"/>
+                <outlet property="deleteButton" destination="Jfc-Vm-fa0" id="IuY-ih-O7o"/>
+                <outlet property="editButton" destination="qEw-RF-7Fd" id="AzX-x1-hze"/>
+                <outlet property="timeLabel" destination="IUl-Fc-cdc" id="9ld-46-ljr"/>
+                <outlet property="topSepratorView" destination="zwA-AP-NZT" id="SIV-0I-CRK"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="23"/>
+        </tableViewCell>
+    </objects>
+</document>

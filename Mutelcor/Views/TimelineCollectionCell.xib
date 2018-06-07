@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TimelineCollectionCell" id="gTV-IL-0wX" customClass="TimelineCollectionCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="206"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1QE-TX-RVY">
+                        <rect key="frame" x="0.0" y="0.0" width="246" height="206"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nR-aX-c4p">
+                        <rect key="frame" x="0.0" y="166" width="246" height="40"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BHJ-5e-Bnd">
+                                <rect key="frame" x="10" y="0.0" width="123" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icAddmenuCalendar" translatesAutoresizingMaskIntoConstraints="NO" id="ssc-nr-eUU">
+                                        <rect key="frame" x="0.0" y="0.0" width="19.5" height="40"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="10 MAY 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHo-d9-c6T">
+                                        <rect key="frame" x="29.5" y="0.0" width="93.5" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ogy-FB-HBO">
+                                <rect key="frame" x="133" y="0.0" width="113" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icActivityplanWhiteclock" translatesAutoresizingMaskIntoConstraints="NO" id="1zu-sz-Wua">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="40"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="12:00 A.M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ud4-38-2qc">
+                                        <rect key="frame" x="31" y="0.0" width="82" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.25695633561643838" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BHJ-5e-Bnd" firstAttribute="width" secondItem="0nR-aX-c4p" secondAttribute="width" multiplier="0.5" id="3LJ-Df-4O9"/>
+                            <constraint firstAttribute="bottom" secondItem="BHJ-5e-Bnd" secondAttribute="bottom" id="5rG-9d-wBD"/>
+                            <constraint firstAttribute="trailing" secondItem="Ogy-FB-HBO" secondAttribute="trailing" id="Aa7-Jp-oiX"/>
+                            <constraint firstItem="Ogy-FB-HBO" firstAttribute="width" secondItem="BHJ-5e-Bnd" secondAttribute="width" constant="-10" id="Cx8-gU-9JJ"/>
+                            <constraint firstAttribute="height" constant="40" id="DtZ-Uv-0CI"/>
+                            <constraint firstItem="BHJ-5e-Bnd" firstAttribute="leading" secondItem="0nR-aX-c4p" secondAttribute="leading" constant="10" id="IxP-bt-2JI"/>
+                            <constraint firstItem="Ogy-FB-HBO" firstAttribute="top" secondItem="0nR-aX-c4p" secondAttribute="top" id="QbY-Hu-pJr"/>
+                            <constraint firstAttribute="bottom" secondItem="Ogy-FB-HBO" secondAttribute="bottom" id="ugk-TA-aHs"/>
+                            <constraint firstItem="BHJ-5e-Bnd" firstAttribute="top" secondItem="0nR-aX-c4p" secondAttribute="top" id="yZW-kH-1DZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0nR-aX-c4p" secondAttribute="trailing" id="EGF-3s-MII"/>
+                <constraint firstItem="0nR-aX-c4p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ElE-gJ-4L1"/>
+                <constraint firstAttribute="bottom" secondItem="0nR-aX-c4p" secondAttribute="bottom" id="Kd3-9z-MDV"/>
+                <constraint firstItem="1QE-TX-RVY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WnO-3D-FjR"/>
+                <constraint firstAttribute="bottom" secondItem="1QE-TX-RVY" secondAttribute="bottom" id="cFh-i4-Kkb"/>
+                <constraint firstItem="1QE-TX-RVY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="if6-A7-dHY"/>
+                <constraint firstAttribute="trailing" secondItem="1QE-TX-RVY" secondAttribute="trailing" id="wkW-Y7-koD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="246" height="206"/>
+            <point key="canvasLocation" x="102" y="132"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icActivityplanWhiteclock" width="31" height="31"/>
+        <image name="icAddmenuCalendar" width="17" height="17"/>
+    </resources>
+</document>

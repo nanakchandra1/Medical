@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="AttachmentHeaderViewCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZd-Lu-AAf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="39"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqU-cB-P6a">
+                            <rect key="frame" x="20" y="9" width="335" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNk-rS-fpP">
+                            <rect key="frame" x="309" y="0.0" width="66" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="32q-JG-6md"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                            <state key="normal" image="icAppointmentDownarrow"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="zNk-rS-fpP" firstAttribute="top" secondItem="gZd-Lu-AAf" secondAttribute="top" id="Cii-ik-i7E"/>
+                        <constraint firstItem="LqU-cB-P6a" firstAttribute="leading" secondItem="gZd-Lu-AAf" secondAttribute="leading" constant="20" id="DIy-rc-j9Q"/>
+                        <constraint firstAttribute="trailing" secondItem="LqU-cB-P6a" secondAttribute="trailing" constant="20" id="Ty5-R8-79y"/>
+                        <constraint firstItem="LqU-cB-P6a" firstAttribute="centerY" secondItem="gZd-Lu-AAf" secondAttribute="centerY" id="Yxy-QQ-nCo"/>
+                        <constraint firstAttribute="bottom" secondItem="zNk-rS-fpP" secondAttribute="bottom" id="cJE-7q-5G4"/>
+                        <constraint firstAttribute="trailing" secondItem="zNk-rS-fpP" secondAttribute="trailing" id="il3-sO-CSq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <accessibility key="accessibilityConfiguration" identifier="attachmentHeaderViewCellID"/>
+            <constraints>
+                <constraint firstItem="gZd-Lu-AAf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CTE-Hx-mpl"/>
+                <constraint firstAttribute="bottom" secondItem="gZd-Lu-AAf" secondAttribute="bottom" id="bnb-pW-o9E"/>
+                <constraint firstAttribute="trailing" secondItem="gZd-Lu-AAf" secondAttribute="trailing" id="eI1-Td-wjg"/>
+                <constraint firstItem="gZd-Lu-AAf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lgh-HU-t56"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cellBackgroundView" destination="gZd-Lu-AAf" id="urW-34-MK0"/>
+                <outlet property="dropDownBtn" destination="zNk-rS-fpP" id="6KQ-jO-VvI"/>
+                <outlet property="headerLabelLeading" destination="DIy-rc-j9Q" id="UlA-1U-CRT"/>
+                <outlet property="headerTitle" destination="LqU-cB-P6a" id="dvX-Jh-I1O"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="86.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icAppointmentDownarrow" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="havingNutritionDurationCellID" id="gTV-IL-0wX" customClass="HavingNutritionDurationCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="169" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsB-rw-eA7">
+                        <rect key="frame" x="14" y="13" width="140.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="brB-4g-4vB"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vsB-rw-eA7" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="1:1.2" id="8cv-yD-vKG"/>
+                <constraint firstItem="vsB-rw-eA7" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="EhZ-vG-ybA"/>
+                <constraint firstItem="vsB-rw-eA7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="vMD-0B-fHH"/>
+            </constraints>
+            <size key="customSize" width="169" height="50"/>
+            <connections>
+                <outlet property="cellButtonOutlt" destination="vsB-rw-eA7" id="mKD-Tp-vqG"/>
+            </connections>
+            <point key="canvasLocation" x="-33.5" y="52"/>
+        </collectionViewCell>
+    </objects>
+</document>

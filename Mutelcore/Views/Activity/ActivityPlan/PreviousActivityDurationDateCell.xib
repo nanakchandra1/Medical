@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="previousActivityDurationDateCellID" rowHeight="48" id="KGk-i7-Jjw" customClass="PreviousActivityDurationDateCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oB2-1o-AlJ">
+                        <rect key="frame" x="3" y="0.0" width="314" height="47.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e3z-7G-75n">
+                                <rect key="frame" x="4" y="23" width="124" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ZTO-h7-yU1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1YN-eI-528">
+                                <rect key="frame" x="136" y="23.5" width="129" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ccR-tC-J1t"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fc5-QS-wey">
+                                <rect key="frame" x="269" y="6" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fc5-QS-wey" secondAttribute="height" multiplier="1:1" id="xIY-ZB-Fzm"/>
+                                    <constraint firstAttribute="width" constant="35" id="yY9-0Y-yBb"/>
+                                </constraints>
+                                <state key="normal" image="icActivityplanShare"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGc-Zh-78T">
+                                <rect key="frame" x="132" y="24" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IW-Km-skS">
+                                <rect key="frame" x="136" y="13" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e3z-7G-75n" firstAttribute="leading" secondItem="oB2-1o-AlJ" secondAttribute="leading" constant="4" id="5QH-Qj-QLW"/>
+                            <constraint firstItem="1YN-eI-528" firstAttribute="centerY" secondItem="oB2-1o-AlJ" secondAttribute="centerY" id="71g-SZ-B5H"/>
+                            <constraint firstItem="e3z-7G-75n" firstAttribute="centerY" secondItem="oB2-1o-AlJ" secondAttribute="centerY" id="7E3-NB-Vqq"/>
+                            <constraint firstItem="fc5-QS-wey" firstAttribute="centerY" secondItem="oB2-1o-AlJ" secondAttribute="centerY" id="ENA-J6-aJE"/>
+                            <constraint firstItem="1YN-eI-528" firstAttribute="leading" secondItem="RGc-Zh-78T" secondAttribute="trailing" constant="4" id="Iky-hl-KP0"/>
+                            <constraint firstItem="RGc-Zh-78T" firstAttribute="leading" secondItem="e3z-7G-75n" secondAttribute="trailing" constant="4" id="Mbg-kI-5hK"/>
+                            <constraint firstItem="RGc-Zh-78T" firstAttribute="centerX" secondItem="oB2-1o-AlJ" secondAttribute="centerX" constant="-25" id="TDY-m2-Bbm"/>
+                            <constraint firstAttribute="trailing" secondItem="fc5-QS-wey" secondAttribute="trailing" constant="10" id="er6-zb-krD"/>
+                            <constraint firstItem="RGc-Zh-78T" firstAttribute="centerY" secondItem="oB2-1o-AlJ" secondAttribute="centerY" id="k3V-eq-RXU"/>
+                            <constraint firstItem="fc5-QS-wey" firstAttribute="leading" secondItem="1YN-eI-528" secondAttribute="trailing" constant="4" id="o5y-CY-lT5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oB2-1o-AlJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dje-mW-Ui9"/>
+                    <constraint firstItem="7IW-Km-skS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="HWK-ir-ecJ"/>
+                    <constraint firstItem="7IW-Km-skS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="JrZ-tm-qkz"/>
+                    <constraint firstAttribute="trailing" secondItem="oB2-1o-AlJ" secondAttribute="trailing" constant="3" id="lA8-TB-BhP"/>
+                    <constraint firstItem="oB2-1o-AlJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="qeZ-Vq-BXC"/>
+                    <constraint firstAttribute="bottom" secondItem="oB2-1o-AlJ" secondAttribute="bottom" id="sVX-b0-It3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityDurationDatelabel" destination="RGc-Zh-78T" id="wfb-hj-OVW"/>
+                <outlet property="imageAfterDurationDate" destination="1YN-eI-528" id="hfj-SP-aMh"/>
+                <outlet property="imageBeforeDurationDate" destination="e3z-7G-75n" id="yrB-MV-5N8"/>
+                <outlet property="noDataAvailiableLabel" destination="7IW-Km-skS" id="0pT-we-cLp"/>
+                <outlet property="shareBtnOult" destination="fc5-QS-wey" id="O3W-9S-YLh"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icActivityplanShare" width="30" height="30"/>
+    </resources>
+</document>

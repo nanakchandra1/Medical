@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="VitalTableCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="112"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="qZ3-ML-W48">
+                    <rect key="frame" x="0.0" y="0.0" width="246" height="111"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0L-yN-ltq">
+                            <rect key="frame" x="0.0" y="0.0" width="246" height="55.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4T-zG-sfw">
+                            <rect key="frame" x="0.0" y="55.5" width="246" height="55.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vww-Yx-Kvo">
+                    <rect key="frame" x="0.0" y="111" width="246" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Izk-bm-Ttx"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZn-97-JKL">
+                    <rect key="frame" x="246" y="0.0" width="1" height="112"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="eHW-GG-JWD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="vitalTableCellID"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vww-Yx-Kvo" secondAttribute="bottom" id="0ap-En-h5J"/>
+                <constraint firstAttribute="trailing" secondItem="OZn-97-JKL" secondAttribute="trailing" id="B0B-Ob-F6B"/>
+                <constraint firstItem="Vww-Yx-Kvo" firstAttribute="top" secondItem="qZ3-ML-W48" secondAttribute="bottom" id="DeR-ag-Th2"/>
+                <constraint firstItem="OZn-97-JKL" firstAttribute="leading" secondItem="qZ3-ML-W48" secondAttribute="trailing" id="Dh9-rR-xmT"/>
+                <constraint firstItem="qZ3-ML-W48" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L2j-P8-yHc"/>
+                <constraint firstItem="qZ3-ML-W48" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="X7W-R3-57S"/>
+                <constraint firstItem="Vww-Yx-Kvo" firstAttribute="top" secondItem="OZn-97-JKL" secondAttribute="bottom" constant="-1" id="YxN-EG-4BW"/>
+                <constraint firstItem="OZn-97-JKL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ibj-ms-O9t"/>
+                <constraint firstAttribute="trailing" secondItem="Vww-Yx-Kvo" secondAttribute="trailing" id="otW-Y5-dsT"/>
+                <constraint firstItem="Vww-Yx-Kvo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yaz-2u-IWE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomSepratorView" destination="Vww-Yx-Kvo" id="KQm-CG-75J"/>
+                <outlet property="dateLabelOult" destination="f0L-yN-ltq" id="a3N-e2-7UF"/>
+                <outlet property="timeLabelOult" destination="C4T-zG-sfw" id="b5c-j9-whC"/>
+                <outlet property="verticalSepratorView" destination="OZn-97-JKL" id="PoG-Uv-lQB"/>
+            </connections>
+            <point key="canvasLocation" x="-40" y="-295"/>
+        </view>
+    </objects>
+</document>

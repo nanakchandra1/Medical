@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MedicalCategoryDetail" representedClassName=".MedicalCategoryDetail" syncable="YES">
+        <attribute name="familyAllergy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodCategory" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="foodDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientAllergy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousAllergy" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TreatmentDetail" representedClassName=".TreatmentDetail" syncable="YES">
+        <attribute name="dateOfAdmission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfDischarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfSurgey" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserAddressDetail" representedClassName=".UserAddressDetail" syncable="YES">
+        <attribute name="addressType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientCity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientCountry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientISDCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientPostalCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientState" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserDetail" representedClassName=".UserDetail" syncable="YES">
+        <attribute name="accessToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorSpecialization" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ethinicityId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mobileVerified" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientDob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientDoctorID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientFatherName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientFatherTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientGender" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHospitalID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientLastVisit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientMiddleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientMobileNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientNationalId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientPic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientReviewedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientSpeciality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientSpouseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientSpouseTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientUniqueId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stepVerified" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="surgeryId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserMedicalDetail" representedClassName=".UserMedicalDetail" syncable="YES">
+        <attribute name="diabities" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hypertension" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientBloodGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientDiabitiesFather" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientDiabitiesMother" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHeight" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHeight1" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHeight2" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHeightType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHyperTensionFather" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientHyperTensionMother" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientWeight" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="patientWeightType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="smoking" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MedicalCategoryDetail" positionX="9" positionY="54" width="128" height="120"/>
+        <element name="TreatmentDetail" positionX="27" positionY="72" width="128" height="90"/>
+        <element name="UserAddressDetail" positionX="18" positionY="63" width="128" height="150"/>
+        <element name="UserDetail" positionX="-18" positionY="27" width="128" height="495"/>
+        <element name="UserMedicalDetail" positionX="36" positionY="81" width="128" height="255"/>
+    </elements>
+</model>

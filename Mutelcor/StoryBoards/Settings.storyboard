@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SettingVC-->
+        <scene sceneID="KOm-b4-fQC">
+            <objects>
+                <viewController storyboardIdentifier="SettingVC" id="TXb-0u-bFY" customClass="SettingVC" customModule="Mutelcor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ltn-LF-uEc"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSg-Nb-Chf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7UF-if-Sgq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="O3F-Wb-BOc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="O3F-Wb-BOc" secondAttribute="bottom" id="2Uv-86-D60"/>
+                            <constraint firstItem="O3F-Wb-BOc" firstAttribute="leading" secondItem="7UF-if-Sgq" secondAttribute="leading" id="6iv-se-HBa"/>
+                            <constraint firstAttribute="trailing" secondItem="O3F-Wb-BOc" secondAttribute="trailing" id="nch-8J-QH8"/>
+                            <constraint firstItem="O3F-Wb-BOc" firstAttribute="top" secondItem="ltn-LF-uEc" secondAttribute="bottom" id="y8C-QY-uzc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="settingTableView" destination="O3F-Wb-BOc" id="2wZ-15-29r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4VB-qb-RhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1428" y="-30"/>
+        </scene>
+        <!--Change PasswordVC-->
+        <scene sceneID="idU-Gj-C5j">
+            <objects>
+                <viewController storyboardIdentifier="ChangePasswordVC" id="ry4-kE-Wb7" customClass="ChangePasswordVC" customModule="Mutelcor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QF2-Nh-Sse"/>
+                        <viewControllerLayoutGuide type="bottom" id="mkB-9J-X5h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddS-fF-hXc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sfm-Cp-h4l">
+                                <rect key="frame" x="10" y="20" width="355" height="583"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65a-34-w05" customClass="TransitionButton" customModule="TransitionButton">
+                                <rect key="frame" x="0.0" y="603" width="375" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="kVX-QJ-4mc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changePasswordBtnTapped:" destination="ry4-kE-Wb7" eventType="touchUpInside" id="iGe-xf-Yoj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sfm-Cp-h4l" firstAttribute="leading" secondItem="ddS-fF-hXc" secondAttribute="leading" constant="10" id="1nB-Fr-bOU"/>
+                            <constraint firstItem="65a-34-w05" firstAttribute="top" secondItem="Sfm-Cp-h4l" secondAttribute="bottom" id="8MO-ve-2e9"/>
+                            <constraint firstAttribute="trailing" secondItem="65a-34-w05" secondAttribute="trailing" id="DEI-9V-4JO"/>
+                            <constraint firstItem="65a-34-w05" firstAttribute="leading" secondItem="ddS-fF-hXc" secondAttribute="leading" id="EVG-Vl-ZqR"/>
+                            <constraint firstItem="Sfm-Cp-h4l" firstAttribute="top" secondItem="QF2-Nh-Sse" secondAttribute="bottom" id="IeF-Z9-T5g"/>
+                            <constraint firstAttribute="bottom" secondItem="65a-34-w05" secondAttribute="bottom" id="M6r-1r-ebP"/>
+                            <constraint firstAttribute="trailing" secondItem="Sfm-Cp-h4l" secondAttribute="trailing" constant="10" id="wx9-zp-JuQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="changePasswordBtn" destination="65a-34-w05" id="Wc1-pQ-hTE"/>
+                        <outlet property="changePasswordTableView" destination="Sfm-Cp-h4l" id="cTL-e8-kxE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MVH-EI-rgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="-30"/>
+        </scene>
+    </scenes>
+</document>

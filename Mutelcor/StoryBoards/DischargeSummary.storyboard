@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discharge SummaryVC-->
+        <scene sceneID="zTf-Po-y88">
+            <objects>
+                <viewController storyboardIdentifier="DischargeSummaryVC" id="GRH-E0-z9K" customClass="DischargeSummaryVC" customModule="Mutelcor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZmP-bL-PM7"/>
+                        <viewControllerLayoutGuide type="bottom" id="sjk-Px-ulZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O3X-g4-Qdt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pem-AK-jFf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1si-af-S7i">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pem-AK-jFf" secondAttribute="bottom" id="JBb-Y4-0ee"/>
+                            <constraint firstAttribute="trailing" secondItem="pem-AK-jFf" secondAttribute="trailing" id="Wxr-jM-2t8"/>
+                            <constraint firstItem="pem-AK-jFf" firstAttribute="top" secondItem="ZmP-bL-PM7" secondAttribute="bottom" id="YRg-cx-iHg"/>
+                            <constraint firstItem="1si-af-S7i" firstAttribute="centerY" secondItem="O3X-g4-Qdt" secondAttribute="centerY" id="c12-GM-qFd"/>
+                            <constraint firstItem="1si-af-S7i" firstAttribute="centerX" secondItem="O3X-g4-Qdt" secondAttribute="centerX" id="qKZ-EV-Wrc"/>
+                            <constraint firstItem="pem-AK-jFf" firstAttribute="leading" secondItem="O3X-g4-Qdt" secondAttribute="leading" id="w4h-Cl-VnF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dischargeSummaryTableView" destination="pem-AK-jFf" id="Oqg-mW-QiG"/>
+                        <outlet property="noDataAvailiableLabel" destination="1si-af-S7i" id="5fR-PL-Q1u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HmK-8X-YYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="-203"/>
+        </scene>
+    </scenes>
+</document>

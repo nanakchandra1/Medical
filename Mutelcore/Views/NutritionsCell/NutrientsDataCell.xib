@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="nutrientsDataCellID" id="gTV-IL-0wX" customClass="NutrientsDataCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="185" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="185" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exC-qe-Grr">
+                        <rect key="frame" x="0.0" y="15" width="185" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="gzg-RR-Ntq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hY-Gf-EBq">
+                        <rect key="frame" x="0.0" y="49" width="185" height="1"/>
+                        <color key="backgroundColor" red="0.2392156869" green="0.67450982329999998" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="raG-oJ-MK0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3hY-Gf-EBq" secondAttribute="trailing" id="2Zt-yI-9Kh"/>
+                <constraint firstItem="exC-qe-Grr" firstAttribute="bottom" secondItem="3hY-Gf-EBq" secondAttribute="bottom" id="4rU-UX-H9X"/>
+                <constraint firstAttribute="trailing" secondItem="exC-qe-Grr" secondAttribute="trailing" id="HTa-tE-whM"/>
+                <constraint firstAttribute="bottom" secondItem="3hY-Gf-EBq" secondAttribute="bottom" id="U0i-S4-H9s"/>
+                <constraint firstItem="exC-qe-Grr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WHg-dp-NcU"/>
+                <constraint firstItem="3hY-Gf-EBq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="crR-YK-V9L"/>
+            </constraints>
+            <size key="customSize" width="185" height="50"/>
+            <connections>
+                <outlet property="bottomView" destination="3hY-Gf-EBq" id="bfe-iE-ND1"/>
+                <outlet property="nutrientNameLabel" destination="exC-qe-Grr" id="ZHV-ep-zJ0"/>
+            </connections>
+            <point key="canvasLocation" x="92.5" y="52"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,87 @@
+//
+//  AppMessages.swift
+//  AppUserDefaults
+//
+//  Created by Gurdeep on 15/12/16.
+//  Copyright © 2016 Gurdeep. All rights reserved.
+//
+
+import Foundation
+
+enum AppMessages : String {
+
+    case ErrorMessage = ""
+    
+    case emptyEmailAndMobileNumber = "M_EMPTY_EMAIL_AND_MOBILE_NUMBER"
+    case validEmail = "M_VALID_EMAIL"
+    case emptyEmail = "M_EMPTY_EMAIL"
+    case validEmailOrMobile = "M_VALID_EMAIL_AND_MOBILE_NUMBER"
+    case validMobilNumber = "M_VALID_MOBILE_NUMBER"
+    case emptyPassword = "M_EMPTY_PASSWORD"
+    case passwordMoreThanSixChar = "M_PASSWORD_MORE_THAN_SIX_CHAR"
+    case mobileNumberLessThanTenDigits = "M_MOBILE_NUMBER_LESS_THAN_TEN_DIGITS"
+    case passAndConfirmPassMismatched = "M_PASSWORD_AND_CONFIRM_PASSWORD_MISMATCHED"
+    case emptyCountryCode = "M_EMPTY_COUNTRY_CODE"
+    case emptyMobileNumber = "M_EMPTY_MOBILE_NUMBER"
+    case emptyConfirmPassword = "M_EMPTY_CONFIRM_PASSWORD"
+    case validAuthorizationCode = "M_VALID_AUTHORIZATION_CODE"
+    case authorizationCodeLessThanSixChar = "M_AUTHORIZATION_CODE_LESS_THAN_SIX_CHAR"
+    case selectAppointmentDate = "M_SELECT_APPOINTMENT_DATE"
+    case selectAppointmentTime = "M_SELECT_APPOINTMENT_TIME"
+    case selectVisitType = "M_SELECT_VISIT_TYPE"
+    case selectSymptoms = "M_SELECT_SYMPTOMS"
+    case enterSpecifySymptoms = "M_EMPTY_SPECIFY_SYMPTOMS"
+    case noSymptomsAvailiable = "M_NO_SYMPTOMS"
+    case selectVitals = "M_SELECT_VITALS"
+    case addAttachment = "M_ADD_ATTACHMENTS"
+    case allValuesOfVitals = "M_ENTER_ALL_VALUES_OF_VITALS"
+    case measurementDate = "M_ENTER_MEASUREMENT_DATE"
+    case measurementTime = "M_ENTER_MEASUREMENT_TIME"
+    case selectOnlyPdf = "M_SELECT_ONLY_PDF"
+    case nameOfDrug = "M_EMPTY_NAME_OF_DRUG"
+    case medicationStartDate = "M_EMPTY_START_DATE"
+    case medicationEndDate = "M_EMPTY_END_DATE"
+    case recurrence = "M_SELECT_RECURRENCE"
+    case medicationSelectSchedule = "M_SELECT_SCHEDULE"
+    case medicationReminderTime = "M_REMINDER_TIME"
+    case selectDosage = "M_SELECT_DOSAGE"
+    case selectInstruction = "M_SELECT_INSTRUCETION"
+    case startDateLessThanEndDate = "M_START_DATE_LESS_THAN_END_DATE"
+    case noExistingReminder = "M_EMPTY_EXISTING_REMINDER"
+    case selectActivityDate = "M_ENTER_ACTIVITY_DATE"
+    case selectActivityTime = "M_ENTER_ACTIVITY_TIME"
+    case selectActivityType = "M_ENTER_ACTIVITY_TYPE"
+    case enterDuration = "M_ENTER_DURATION"
+    case enterCalories = "M_ENTER_CALORIES"
+    case enterDistance = "M_ENTER_DISTANCE"
+    case enterSteps = "M_ENTER_STEPS"
+    
+    case selectFoodAsWater = "K_SELECTED_FOOD_AS_WATER"
+    case selectedMealTypeAsWater = "K_SELECTED_MEAL_TYPE_AS_WATER"
+
+    case selectAMeal = "K_SELECT_A_MEAL"
+    case enterValidWaterAmount = "K_ENTER_VALID_WATER_AMOUNT"
+    case selectNutritionDate = "K_SELECT_A_NUTRITION_DATE"
+    case selectNutritionTime = "K_SELECT_A_NUTRITION_TIME"
+    case enterValidFoodQuantity = "K_ENTER_VALID_FOOD_QUANTITY"
+    case enterCurrentFoodDetails = "K_ENTER_CURRENT_FOOD_DETAILS"
+    case timeSlotsnotFound = "K_TIME_SLOTS_NOT_FOUND"
+    case emptyCountryList = "M_EMPTY_COUNTRY_LIST"
+    case emptyStateList = "M_EMPTY_STATE_LIST"
+    case emptyCityList = "M_EMPTY_CITY_LIST"
+    case emptyMessage = "M_EMPTY_MESSAGE"
+    case otpFieldEmpty = "Please enter the OTP."
+    case otpLessThansixDigit = "Please enter the correct OTP."
+    case emptyFirstName = "M_EMPTY_FIRST_NAME"
+    case emptySymptoms = "M_EMPTY_SYMPTOMS"
+    case emptySymptomDate = "M_EMPTY_SYMPTOMS_DATE"
+    case emptySymptomTime = "M_EMPTY_SYMPTOMS_TIME"
+    case emptySymptomSeverity = "M_EMPTY_SYMPTOM_SEVERITY"
+    case emptySymptomDuration = "M_EMPTY_SYMPTOM_DURATION"
+    case emptyNewPassword = "M_EMPTY_NEW_PASSWORD"
+    case emptyOldPassword = "M_EMPTY_OLD_PASSWORD"
+    case currentPasswordCharaterLimit = "M_CURR_PASSWORD_LIMIT"
+    case newPasswordLimit = "M_NEW_PASS_LIMIT"
+    case confirmPasswordLimit = "M_CONFIRM_PASS_LIMIT"
+    case differentPassword = "M_DIFFERENT_PASSWORD"
+}

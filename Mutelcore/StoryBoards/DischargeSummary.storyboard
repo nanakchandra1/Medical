@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discharge SummaryVC-->
+        <scene sceneID="zTf-Po-y88">
+            <objects>
+                <viewController storyboardIdentifier="DischargeSummaryVC" id="GRH-E0-z9K" customClass="DischargeSummaryVC" customModule="Mutelcore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZmP-bL-PM7"/>
+                        <viewControllerLayoutGuide type="bottom" id="sjk-Px-ulZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O3X-g4-Qdt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pem-AK-jFf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sjk-Px-ulZ" firstAttribute="top" secondItem="pem-AK-jFf" secondAttribute="bottom" id="JBb-Y4-0ee"/>
+                            <constraint firstAttribute="trailing" secondItem="pem-AK-jFf" secondAttribute="trailing" id="Wxr-jM-2t8"/>
+                            <constraint firstItem="pem-AK-jFf" firstAttribute="top" secondItem="ZmP-bL-PM7" secondAttribute="bottom" id="YRg-cx-iHg"/>
+                            <constraint firstItem="pem-AK-jFf" firstAttribute="leading" secondItem="O3X-g4-Qdt" secondAttribute="leading" id="w4h-Cl-VnF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dischargeSummaryTableView" destination="pem-AK-jFf" id="Oqg-mW-QiG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HmK-8X-YYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="-203"/>
+        </scene>
+    </scenes>
+</document>

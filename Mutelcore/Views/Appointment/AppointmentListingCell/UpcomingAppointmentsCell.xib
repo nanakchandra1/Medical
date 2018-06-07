@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="upcomingAppointmentsCellID" id="4ep-hw-QTC" customClass="UpcomingAppointmentsCell" customModule="Mutelcore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X19-uE-RKr">
+                        <rect key="frame" x="1" y="110" width="351" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcr-H8-Vgv">
+                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="40"/>
+                                <state key="normal" title="Button" image="icAppointmentDeselectedCheck">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="icAppointmentSelectedRadio"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLa-E6-a8Q">
+                                <rect key="frame" x="174.5" y="0.0" width="1" height="40"/>
+                                <color key="backgroundColor" red="0.88619667290000004" green="0.88632434609999999" blue="0.88616871829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="7fQ-ty-9kc"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ty-ct-jGd">
+                                <rect key="frame" x="175.5" y="0.0" width="175.5" height="40"/>
+                                <state key="normal" title="Button" image="icAppointmentDeselectedCheck">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="icAppointmentSelectedRadio"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="8ED-zN-jz6"/>
+                            <constraint firstItem="xcr-H8-Vgv" firstAttribute="width" secondItem="X19-uE-RKr" secondAttribute="width" multiplier="1:2" constant="-1" id="c2z-dn-DJE"/>
+                        </constraints>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8XE-Xd-jEH">
+                        <rect key="frame" x="0.0" y="0.0" width="1" height="150"/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.75686274509999996" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="MQf-um-Lzf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SgW-1e-WTd">
+                        <rect key="frame" x="13" y="109" width="327" height="1"/>
+                        <color key="backgroundColor" red="0.88619667290000004" green="0.88632434609999999" blue="0.88616871829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="CAn-1n-967"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jiw-6o-kg6">
+                        <rect key="frame" x="100" y="7" width="1" height="98"/>
+                        <color key="backgroundColor" red="0.88619667290000004" green="0.88632434609999999" blue="0.88616871829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="VaJ-s4-PGX"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zCg-50-gfx">
+                        <rect key="frame" x="9" y="13" width="83" height="89"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-TU-VuL">
+                                <rect key="frame" x="28.5" y="0.0" width="26.5" height="36.5"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="May 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFk-zp-XEU">
+                                <rect key="frame" x="15.5" y="36.5" width="52" height="19"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="12.5"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14:00 - 15:00    " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFl-9d-KOk">
+                                <rect key="frame" x="6" y="55.5" width="71.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="11.5"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emergency" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMR-iP-gEF">
+                                <rect key="frame" x="1.5" y="74" width="80" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="1ln-rT-lu4"/>
+                                    <constraint firstAttribute="width" constant="80" id="Jzi-mD-yN9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="11.5"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="qyn-N0-IxS">
+                        <rect key="frame" x="111" y="7" width="231" height="27"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Ashok Aggarwal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfc-ZW-94s">
+                                <rect key="frame" x="0.0" y="3" width="198" height="21"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icAppointmentVideo" translatesAutoresizingMaskIntoConstraints="NO" id="2rY-Ov-Cqd">
+                                <rect key="frame" x="201" y="1" width="30" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="2Hs-Or-hAB"/>
+                                    <constraint firstAttribute="width" constant="30" id="LtL-dE-Cv2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26.5" id="RSi-oX-eaf"/>
+                            <constraint firstItem="pfc-ZW-94s" firstAttribute="top" secondItem="qyn-N0-IxS" secondAttribute="top" constant="2.5" id="ejx-0o-wlp"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biametric" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLv-eY-bvY">
+                        <rect key="frame" x="111" y="32" width="231" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="EkU-Vl-SvP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="13"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Symptoms : Headache &amp; fever" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1B0-29-ncc">
+                        <rect key="frame" x="111" y="44" width="231" height="17"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="13.5"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi bdhas hkjsdf kjasf bafjk shv sbvhh hvsc hvhs hvs" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hN-0i-EJJ">
+                        <rect key="frame" x="111" y="61" width="231" height="31.5"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="12.5"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SgW-1e-WTd" firstAttribute="leading" secondItem="8XE-Xd-jEH" secondAttribute="trailing" constant="12" id="0iJ-ck-8Uk"/>
+                <constraint firstItem="6hN-0i-EJJ" firstAttribute="top" secondItem="1B0-29-ncc" secondAttribute="bottom" id="0jR-XN-Hdd"/>
+                <constraint firstAttribute="trailing" secondItem="6hN-0i-EJJ" secondAttribute="trailing" constant="10" id="2Iu-13-hC4"/>
+                <constraint firstAttribute="trailing" secondItem="X19-uE-RKr" secondAttribute="trailing" id="7l9-wx-px8"/>
+                <constraint firstItem="6hN-0i-EJJ" firstAttribute="leading" secondItem="Jiw-6o-kg6" secondAttribute="trailing" constant="10" id="8MB-Pf-TjC"/>
+                <constraint firstAttribute="bottom" secondItem="X19-uE-RKr" secondAttribute="bottom" id="D8m-8u-MV8"/>
+                <constraint firstItem="qLv-eY-bvY" firstAttribute="top" secondItem="qyn-N0-IxS" secondAttribute="bottom" constant="-2" id="I4N-gK-2Lr"/>
+                <constraint firstItem="1B0-29-ncc" firstAttribute="trailing" secondItem="6hN-0i-EJJ" secondAttribute="trailing" id="JiG-Nd-M1J"/>
+                <constraint firstItem="SgW-1e-WTd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6hN-0i-EJJ" secondAttribute="bottom" id="Lck-2c-g7b"/>
+                <constraint firstItem="qyn-N0-IxS" firstAttribute="trailing" secondItem="qLv-eY-bvY" secondAttribute="trailing" id="RkT-20-JSa"/>
+                <constraint firstItem="zCg-50-gfx" firstAttribute="top" secondItem="Jiw-6o-kg6" secondAttribute="top" constant="6" id="ZeC-wd-0tP"/>
+                <constraint firstItem="8XE-Xd-jEH" firstAttribute="top" secondItem="4ep-hw-QTC" secondAttribute="top" id="aFh-5F-Q9C"/>
+                <constraint firstItem="qLv-eY-bvY" firstAttribute="trailing" secondItem="1B0-29-ncc" secondAttribute="trailing" id="azb-FW-61U"/>
+                <constraint firstItem="qyn-N0-IxS" firstAttribute="top" secondItem="Jiw-6o-kg6" secondAttribute="top" id="chH-dH-y2X"/>
+                <constraint firstAttribute="trailing" secondItem="SgW-1e-WTd" secondAttribute="trailing" constant="12" id="e2D-Ap-Npx"/>
+                <constraint firstAttribute="bottom" secondItem="8XE-Xd-jEH" secondAttribute="bottom" id="eXS-za-ZHG"/>
+                <constraint firstItem="Jiw-6o-kg6" firstAttribute="leading" secondItem="8XE-Xd-jEH" secondAttribute="leading" constant="100" id="eck-Fe-0wH"/>
+                <constraint firstItem="1B0-29-ncc" firstAttribute="leading" secondItem="6hN-0i-EJJ" secondAttribute="leading" id="eqX-EU-zNd"/>
+                <constraint firstItem="Jiw-6o-kg6" firstAttribute="leading" secondItem="zCg-50-gfx" secondAttribute="trailing" constant="8" id="gIO-nK-qAL"/>
+                <constraint firstItem="1B0-29-ncc" firstAttribute="top" secondItem="qLv-eY-bvY" secondAttribute="bottom" constant="2" id="h4d-sM-wP3"/>
+                <constraint firstItem="SgW-1e-WTd" firstAttribute="top" secondItem="zCg-50-gfx" secondAttribute="bottom" constant="7" id="hjG-0p-ATl"/>
+                <constraint firstItem="8XE-Xd-jEH" firstAttribute="leading" secondItem="4ep-hw-QTC" secondAttribute="leading" id="hsv-c8-lHH"/>
+                <constraint firstItem="X19-uE-RKr" firstAttribute="leading" secondItem="8XE-Xd-jEH" secondAttribute="trailing" id="iKr-i0-Oxe"/>
+                <constraint firstItem="zCg-50-gfx" firstAttribute="leading" secondItem="8XE-Xd-jEH" secondAttribute="trailing" constant="8" id="k9O-ib-Axe"/>
+                <constraint firstItem="Jiw-6o-kg6" firstAttribute="top" secondItem="4ep-hw-QTC" secondAttribute="top" constant="7" id="ljA-hV-tna"/>
+                <constraint firstItem="X19-uE-RKr" firstAttribute="top" secondItem="SgW-1e-WTd" secondAttribute="bottom" id="oIG-oV-Abd"/>
+                <constraint firstItem="qyn-N0-IxS" firstAttribute="leading" secondItem="qLv-eY-bvY" secondAttribute="leading" id="rv0-nQ-KoW"/>
+                <constraint firstItem="qLv-eY-bvY" firstAttribute="leading" secondItem="1B0-29-ncc" secondAttribute="leading" id="uMv-wc-tXf"/>
+                <constraint firstItem="SgW-1e-WTd" firstAttribute="top" secondItem="Jiw-6o-kg6" secondAttribute="bottom" constant="3.5" id="yGH-bX-dnW"/>
+            </constraints>
+            <size key="customSize" width="352" height="143"/>
+            <connections>
+                <outlet property="appointmentDate" destination="eF2-TU-VuL" id="hcy-Kk-4kI"/>
+                <outlet property="appointmentMonth" destination="XFk-zp-XEU" id="Orr-3i-eAN"/>
+                <outlet property="appointmentStatus" destination="aMR-iP-gEF" id="fIM-cI-GBh"/>
+                <outlet property="appointmentTime" destination="UFl-9d-KOk" id="QP2-gI-zrB"/>
+                <outlet property="cancelBtn" destination="xcr-H8-Vgv" id="DPV-aG-UfQ"/>
+                <outlet property="descriptionText" destination="6hN-0i-EJJ" id="RkK-57-f0Y"/>
+                <outlet property="doctorName" destination="pfc-ZW-94s" id="plj-yo-0an"/>
+                <outlet property="doctorSpeciality" destination="qLv-eY-bvY" id="qoP-ki-a2i"/>
+                <outlet property="rescheduleBtn" destination="0Ty-ct-jGd" id="vdN-8Q-ro4"/>
+                <outlet property="symptoms" destination="1B0-29-ncc" id="pbb-nu-bHb"/>
+                <outlet property="visitTypeImage" destination="2rY-Ov-Cqd" id="QmC-z6-Y8Z"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="458"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icAppointmentDeselectedCheck" width="31" height="31"/>
+        <image name="icAppointmentSelectedRadio" width="34" height="34"/>
+        <image name="icAppointmentVideo" width="33" height="33"/>
+    </resources>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PieChartCollectionCell" id="gTV-IL-0wX" customClass="PieChartCollectionCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="274"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="274"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icActivityCaloriesCircle" translatesAutoresizingMaskIntoConstraints="NO" id="Fx4-3J-cvx">
+                        <rect key="frame" x="38" y="37" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="c8k-8i-j33"/>
+                            <constraint firstAttribute="width" secondItem="Fx4-3J-cvx" secondAttribute="height" id="vzv-xA-85f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAJ-4D-YHr">
+                        <rect key="frame" x="198" y="57" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR0-2A-lCj">
+                        <rect key="frame" x="78" y="217" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKO-Vy-ag5">
+                        <rect key="frame" x="198" y="217" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJu-dM-dBy">
+                        <rect key="frame" x="104.5" y="137.5" width="66.5" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eg-eg-Hi1">
+                        <rect key="frame" x="78" y="57" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="iKO-Vy-ag5" firstAttribute="bottom" secondItem="Fx4-3J-cvx" secondAttribute="bottom" constant="-20" id="1OM-DT-2dS"/>
+                <constraint firstItem="xJu-dM-dBy" firstAttribute="centerY" secondItem="Fx4-3J-cvx" secondAttribute="centerY" id="6X8-m1-Pnb"/>
+                <constraint firstItem="Fx4-3J-cvx" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Ct6-2d-cn0"/>
+                <constraint firstItem="Fx4-3J-cvx" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="DZI-A4-toH"/>
+                <constraint firstItem="6eg-eg-Hi1" firstAttribute="top" secondItem="Fx4-3J-cvx" secondAttribute="top" constant="20" id="FYH-lJ-1tl"/>
+                <constraint firstItem="CAJ-4D-YHr" firstAttribute="trailing" secondItem="Fx4-3J-cvx" secondAttribute="trailing" constant="-40" id="Ria-9z-idB"/>
+                <constraint firstItem="xJu-dM-dBy" firstAttribute="centerX" secondItem="Fx4-3J-cvx" secondAttribute="centerX" id="S9t-9p-sij"/>
+                <constraint firstItem="iKO-Vy-ag5" firstAttribute="trailing" secondItem="Fx4-3J-cvx" secondAttribute="trailing" constant="-40" id="d4c-Xz-ZGf"/>
+                <constraint firstItem="6eg-eg-Hi1" firstAttribute="leading" secondItem="Fx4-3J-cvx" secondAttribute="leading" constant="40" id="eJS-sc-CJy"/>
+                <constraint firstItem="xJu-dM-dBy" firstAttribute="width" secondItem="Fx4-3J-cvx" secondAttribute="width" multiplier="1:3" id="fro-x3-oFO"/>
+                <constraint firstItem="CAJ-4D-YHr" firstAttribute="top" secondItem="Fx4-3J-cvx" secondAttribute="top" constant="20" id="jX3-Hj-jhL"/>
+                <constraint firstItem="KR0-2A-lCj" firstAttribute="bottom" secondItem="Fx4-3J-cvx" secondAttribute="bottom" constant="-20" id="p5y-tx-WSn"/>
+                <constraint firstItem="KR0-2A-lCj" firstAttribute="leading" secondItem="Fx4-3J-cvx" secondAttribute="leading" constant="40" id="w2U-88-gUU"/>
+            </constraints>
+            <size key="customSize" width="275" height="274"/>
+            <connections>
+                <outlet property="breakfastLabel" destination="6eg-eg-Hi1" id="BW0-Pk-mWd"/>
+                <outlet property="caloriesLabel" destination="xJu-dM-dBy" id="PTl-Gu-LWE"/>
+                <outlet property="dinnerLabel" destination="iKO-Vy-ag5" id="Kj7-ep-vTA"/>
+                <outlet property="lunchLabel" destination="CAJ-4D-YHr" id="HUR-wI-OJ2"/>
+                <outlet property="snacksLabel" destination="KR0-2A-lCj" id="IQV-Cs-Ifk"/>
+            </connections>
+            <point key="canvasLocation" x="-91.5" y="-127"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icActivityCaloriesCircle" width="199" height="199"/>
+    </resources>
+</document>

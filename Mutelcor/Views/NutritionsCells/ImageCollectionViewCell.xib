@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageCollectionViewCellID" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="168"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="168"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJC-td-koQ">
+                        <rect key="frame" x="158" y="73" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6E-Hr-y6X">
+                        <rect key="frame" x="89.5" y="39" width="179" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icAddmenuFillGlass" translatesAutoresizingMaskIntoConstraints="NO" id="l1v-IP-gNv">
+                        <rect key="frame" x="0.0" y="49" width="358" height="99"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l1v-IP-gNv" secondAttribute="trailing" id="97f-Ja-Lmm"/>
+                <constraint firstAttribute="bottom" secondItem="l1v-IP-gNv" secondAttribute="bottom" constant="20" id="D2l-OG-Jux"/>
+                <constraint firstItem="l1v-IP-gNv" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="1:1.7" id="em4-tu-BrW"/>
+                <constraint firstItem="l1v-IP-gNv" firstAttribute="top" secondItem="f6E-Hr-y6X" secondAttribute="bottom" constant="10" id="jN4-zb-rBr"/>
+                <constraint firstItem="f6E-Hr-y6X" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nnV-tC-geu"/>
+                <constraint firstItem="l1v-IP-gNv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oJl-uq-icf"/>
+                <constraint firstItem="f6E-Hr-y6X" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="1:2" id="wSK-ge-IEU"/>
+            </constraints>
+            <size key="customSize" width="358" height="168"/>
+            <connections>
+                <outlet property="nutrientsImage" destination="l1v-IP-gNv" id="RgN-s8-dCq"/>
+                <outlet property="nutrientsQuantity" destination="f6E-Hr-y6X" id="hkR-0n-svB"/>
+            </connections>
+            <point key="canvasLocation" x="-64" y="61"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icAddmenuFillGlass" width="97" height="142"/>
+    </resources>
+</document>

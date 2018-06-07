@@ -1,0 +1,734 @@
+
+//  Localizable.strings
+//  Mutelcor
+//
+//  Created by  on 21/03/17.
+//  Copyright © 2017. All rights reserved.
+
+
+//For WalkThroughScreen
+"K_APP_LABEL_ATBOTTOM" = "ⓒ Mutelcor GmbH";
+
+//For LoginScreen
+"K_SCREEN_TAG" = "Your Personal Health Assistant On The Go.";
+"K_EMAIL_OR_MOBILE_NUMBER" = "Email Or Mobile Number";
+"K_PASSWORD" = "Password";
+"K_LOGIN_WITH_OTP" = "Login with OTP";
+"K_FORGOT_PASSWORD" = "Forgot Password?";
+"K_SECURE_LOGIN" = "SECURE LOGIN";
+"K_NEW_USER_SIGN_UP" = "NEW USER? SIGN UP";
+
+"K_TERMS_AND_CONDITION" = "By logging in, you agree to our Terms & Conditions and that you have read our Privacy policy.";
+
+//MARK: For Sign In With OTP
+"K_SIGN_IN_WITH_OTP" = "Sign In With OTP";
+"K_OTP_VERIFICATION" = "OTP Verification";
+"K_AUTH_TEXT" = "Enter the online authorization code you have reveived from your doctor.";
+"K_BY_LOGGIN_IN" = "By logging in, you agree to our ";
+"K_THAT_YOU_HAVE" = " and that you have read our ";
+"K_PRIVACY_POLICY" = "Privacy policy";
+
+
+//For OTP Screen
+"K_ENTER_OTP_ON_YOUR_MOBILE_NUMBER" = "Please enter the OTP send on your mobile number ending with ";
+
+//MARK: For SignUp Screen
+"K_SIGNUP_SCREEN_TITLE" = "Sign Up";
+"HELP_POP_UP_TITLE" = "What is Authorisation Code?";
+"HELP_POP_UP_MESSAGE" = "Authorisation code helps to verify that you are a verified user. It also ensures that you remain connected with right set of caregivers.";
+"K_CONFIRM_PASSWORD" = "Confirm Password";
+"K_ENTER_AUTHORIZATION_CODE" = "ENTER YOUR AUTHORISATION CODE";
+
+
+//MARK: For Forgot Password Screen
+"K_FORGOTPASSWORD_SCREEN_TITLE" = "Forgot Password";
+"K_FORGOTPASSWORD_SCREEN_LABEL" = "Please enter your registered email address or mobile number & we will send you a reset password link/OTP.";
+"K_EMAIL_CONFIRMATION_MESSAGE" = "Please check your email. We have sent you a reset password link.";
+
+//MARK: For Reset Password
+//=========================
+"K_RESET_PASSWORD" = "Reset Password";
+"CONFIRM_PASSWORD" = "Confirm Password";
+
+//MARK: For CountryCode
+//===============
+"K_COUNTRYCODE_SCREEN_TITLE" = "Country Code";
+
+//MARK: FOR BUILDPROFILEVC
+//=========================
+"BUILD_PROFILE_SCREEN_TITLE" = "Build Profile";
+"K_UPDATE_PROFILE_TITLE" = "Update Profile";
+"K_SAVE_AND_CONTINUE_PLACEHOLDER" = "SAVE AND CONTINUE";
+"K_SKIP_PLACEHOLDER" = "SKIP";
+
+"K_ADDRESS_DETAIL" = "Address Detail";
+
+//MARK: PersonalInformation VC
+//================================
+"K_PERSONAL_INFORMATION" = "PATIENT'S DEMOGRAPHICS";
+"K_MEDICAL_PROFILE" = "PRESENT MEDICAL COMPLAINTS";
+"K_ALLERGIES" = "ALLERGIES:";
+"K_HOSPITAL_DETAILS" = "HOSPITAL DETAILS";
+"K_TREATMENT_DETAILS" = "TREATMENT DETAILS";
+"K_PATIENT_NAME_PLACEHOLDER" = "Patient's Name";
+"K_EMAIL_ADDRESS_PLACEHOLDER" = "Email Address";
+"K_DATE_OF_BIRTH_PLACEHOLDER" = "Date Of Birth";
+"K_GENDER_PLACEHOLDER" = "Gender";
+"K_GENDER_MALE_PLACEHOLDER" = "Male";
+"K_GENDER_FEMALE_PLACEHOLDER" = "Female";
+"K_GENDER_OTHERS_PLACEHOLDER" = "Others";
+"K_COUNTRY_PLACEHOLDER" = "Country";
+"K_ETHNICITY_PLACEHOLDER" = "Ethnicity";
+"K_PIN_CODE_PLACEHOLDER" = "Pin Code";
+"K_STATE_PLACEHOLDER" = "State";
+"K_TOWN_PLACEHOLDER" = "City";
+"K_ADDRESS_TYPE" = "Address Type";
+"K_REFFERED_PLACEHOLDER" = "Referred";
+"K_PATIENT_OCCUPATION" = "Occupation";
+"K_MARITAL_STATUS" = "Marital Status";
+
+"K_MOBILE_NUMBER_PLACEHOLDER" = "Mobile Number";
+"K_FATHERS_NAME_PLACEHOLDER" = "Father Name";
+"K_MOTHER_NAME_PLACEHOLDER" = "Mother Name";
+"K_SPOUSE_NAME_PLACEHOLDER" = "Spouse Name";
+"K_EMERGENCY_CONTACT_PERSON" = "Emergency Contact Person";
+"K_RELATIONSHIP_PLACEHOLDER" = "Relation";
+"K_EMERGENCY_CONSTACT_PLACEHOLDER" = "Emergency Contact";
+"K_IDEAL_WEIGHT_PLACEHOLDER" = "Ideal Weight";
+"K_MAXIMUM_LOSS_PLACEHOLDER" = "Maximum Loss : How";
+"K_EXCESS_WEIGHT_PLACEHOLDER" = "Excess Weight";
+
+"K_WEIGHT_MAXIMUM_ACHIEVED" = "WEIGHT : MAXIMUM ACHIEVED";
+"K_WEIGHT_MAXIMUM_LOSS" = "WEIGHT : MAXIMUM LOSS";
+
+"K_WAIST_CIRCUMFRENCE_PLACEHOLDER" = "Waist Circumfrence";
+"K_HIP_CIRCUMFRENCE_PLACEHOLDER" = "Hip Circumfrence";
+"K_PAST_MEDICAL_COMPLIANTS_PLACEHOLDER" = "Past Medical Compliants";
+"K_NEUROLOGICAL_PLACEHOLDER" = "Neurological";
+"K_RESPIRATORY_PLACEHOLDER" = "Respiratory";
+"K_CARDIAC_PLACEHOLDER" = "Cardiac";
+"K_ABDOMINAL_PLACEHOLDER" = "Abdominal";
+"K_JOINTS_AND_BONES_PLACEHOLDER" = "Joints & Bones";
+"K_HORMONAL_PLACEHOLDER" = "Hormonal";
+"K_PHYCHOLOGICAL_PLACEHOLDER" = "Phychological";
+"K_OTHERS_PLACEHOLDER" = "Others";
+"K_PRESENT_MEDICAL_TREATMENT_PLACEHOLDER" = "Present Medical Treatment";
+"K_ENVIRONMENTAL_PLACEHOLDER" = "Environmental";
+"K_FOOD_PLACEHOLDER" = "Food";
+"K_DRUG_PLACEHOLDER" = "Drug";
+"K_MILD_SEVERITIY" = "Mild";
+"K_MODERATE_SEVERITIY" = "Moderate";
+"K_SEVERE_SEVERITIY" = "Severe";
+
+"K_FAMILY_HISTORY_OBESITY" = "Family History of Obesity";
+"K_FAMILY_HISTORY_OBESITY_REASON" = "Family History Obesity Reason";
+
+"K_FAMILY_HISTORY_MEDICAL_DISEASES" = "Family History of Medical Diseases";
+"K_FAMILY_HISTORY_MEDICAL_DISEASES_REASON" = "Family History Medical Disease Reason";
+
+"K_EXCESS_APETITE_REASON" = "Excessive Apetite Reason";
+"K_ALCOHOL_REASON" = "Alcohol Reason";
+"K_TOBACOO_REASON" = "Tobacoo Reason";
+"K_ILLEGAL_DRUG_REASON" = "Illegal Drugs Reason";
+"K_TREATMENT_FOR_OBESITY" = "Treatment For Obesity";
+
+
+
+
+"K_DO_YOU_LOVE_TO_EAT" = "Do you love to eat?";
+"K_DO_YOU_HAVE_AN_EXCESSIVE_APPETITE" = "Do you have an excessive appetite?";
+"K_DO_YOU_HAVE_AN_ERRATIC_TIMMING" = "Do you have erratic timings?";
+"K_EATING_VOLUMES" = "Eating Volumes";
+"K_AFFINITY_FOR_SWEETS" = "Afinity for sweets";
+"K_ALCOHOL" = "Alcohol";
+"K_TOBACCO" = "Tobacco";
+"K_ILLEGA_DRUGS" = "Illegal Drugs";
+"K_JUNK_FOOD_PER_WEEK" = "Junk Food Per Week";
+"K_ARE_YOU_OBESE" = "Are you Obese?";
+"K_TREATMENT_SO_FAR_FOR_OBESITY" = "Treatment so far for obesity";
+
+"K_DOCTOR_NAME_PLACEHOLDER" = "Doctor's Name";
+"K_DOCTOR_ADDRESS_PLACEHOLDER" = "Doctor's Address";
+"K_ASSOSIATED_DOCTOR" = "Assosiated Doctor";
+"K_OTHERS_DOCTOR" = "Other Doctors";
+
+"K_TYPE_OF_SURGERY_PLACEHOLDER" = "Surgery Type";
+"K_REASON_OF_REVISION_PLACEHOLDER" = "Reason of Revision";
+"K_OPERATIVE_APPROACH_PLACEHOLDER" = "Operative Approach";
+"K_DATE_OF_ADMISSION_PLACEHOLDER" = "Date Of Admission";
+"K_DATE_OF_SURGERY_PLACEHOLDER" = "Date Of Surgery";
+
+"K_SURGERY_PROCEDURE_PLACEHOLDER" = "Surgery Procedure";
+
+"K_CURRENT_ADDRESS_TYPE" = "Current";
+"K_PERMANENT_ADDRESS_TYPE" = "Permanent";
+"K_SERVICE_TEXT" = "Service";
+"K_BUSINESS_TEXT" = "Business";
+"K_SINGLE_TEXT" = "Single";
+"K_MARRIED_TEXT" = "Married";
+"K_SEPRATE_TEXT" = "Seprated";
+"K_OTHERS_TEXT" = "Others";
+
+"K_PRESENT_PLACEHOLDER" = "Present";
+"K_PAST_PLACEHOLDER" = "Past";
+"K_IF_YES_WHO_ALL" = "If Yes: Who all?";
+"K_IF_HOW_OFTEN_TO_EAT" = "If Yes: How often do you eat?";
+"K_IF_QTY_AND_PERIOD" = "If Yes: Qty and period";
+"K_IF_ADD_DESCRIPTION" = "If Yes: Add description";
+"K_ENTER_ALLERGIES_DETAIL" = "Enter Allergy";
+"K_WRITE_HERE" = "Write Here";
+"K_SELECT_PLACEHOLDER" = "Select";
+"K_KGS_PLACEHOLDER" = "kgs";
+"K_COUNTRY_CODE_PLACEHOLDER" = "Code";
+"K_PHONE_NUMBER_PLACEHOLDER" = "Enter Contact Number";
+"K_SELECT_COUNTRY_PLACEHOLDER" = "Select Country";
+"K_SELECT_STATE_PLACEHOLDER" = "Select State";
+"K_SELECT_CITY_PLACEHOLDER" = "Select City";
+"K_SELECT_ETHINICITY_PLACEHOLDER" = "Select Ethinicity";
+"K_ENTER_YOUR_ADDRESS_PLACEHOLDER" = "Enter Your Address";
+"K_ENTER_PERSON_NAME_PLACEHOLDER" = "Enter Person Name";
+"K_SELECT_OCCUPATION_PLACEHOLDER" = "Select Occupation";
+"K_SELECT_MARITAL_PLACEHOLDER" = "Select Marital Status";
+"K_ENTER_YOUR_FATHER_NAME_PLACEHOLDER" = "Enter Your Father Name";
+"K_ENTER_YOUR_MOTHER_NAME_PLACEHOLDER" = "Enter Your Mother Name";
+"K_ENTER_YOUR_SPOUSE_NAME_PLACEHOLDER" = "Enter Your Spouse Name";
+"K_ENTER_EMERGENCY_CONTACT_PERSON_PLACEHOLDER" = "Enter Emergency Contact Person";
+"K_ENTER_YRELATION_PLACEHOLDER" = "Enter Relation";
+
+
+//MARK: For Gender in PersonalInfromationVC
+//====================================
+"K_MR_PLACEHOLDER" = "Mr.";
+"K_MRS_PLACEHOLDER" = "Mrs.";
+"K_MS_PLACEHOLDER" = "Ms.";
+"K_DR_PLACEHOLDER" = "Dr.";
+
+//MARK: For Medical ProfileVC
+//======================
+"K_FEET_UNIT_PLACEHOLDER" = "ft";
+"K_CM_UNIT_PLACEHOLDER" = "cm";
+"K_INCH_UNIT_PLACEHOLDER" = "inches";
+"K_HEIGHT_PLACEHOLDER" = "Height";
+"K_WEIGHT_PLACEHOLDER" = "Weight";
+"K_BLOOD_GROUP_PLACEHOLDER" = "Blood Group";
+"K_HYPERTENSION_PLACEHOLDER" = "Hypertension";
+"K_DIABETES_PLACEHOLDER" = "Diabities";
+"K_SMOKING_PLACEHOLDER" = "Smoking";
+"K_FATHER_PLACEHOLDER" = "Father";
+"K_MOTHER_PLACEHOLDER" = "Mother";
+
+"K_ADD_ALERGY_DETAILS_PLACEHOLDER" = "Add Allergy Details";
+"K_CURRENT_MEDICATION_DETAILS_PLACEHOLDER" = "Current Medication Details";
+"K_PREVIOUS_MEDICAL_HISTORY_PLACEHOLDER" = "Previous Medical History";
+"K_ENTER_EMAIL_ADDRESS_PLACEHOLDER" = "Enter Email Address";
+"K_ENTER_PIN_CODE_PLACEHOLDER" = "Enter Pin Code";
+
+"K_FOOD_CATEGORY_DETAILS_PLACEHOLDER" = "Food Category";
+"K_VEG_PLACEHOLDER" = "Veg";
+"K_NON_VEG_PLACEHOLDER" = "Non-Veg";
+"K_BOTH_PLACEHOLDER" = "Both";
+"K_ACTIVE_PLACEHOLDER" = "Active";
+"K_MODERATE_PLACEHOLDER" = "Moderate";
+"K_SEDENTARY_PLACEHOLDER" = "Sedentary";
+
+"K_YES_PLACEHOLDER" = "Yes";
+"K_NO_PLACEHOLDER" = "No";
+"K_DONTKNOW_PLACEHOLDER" = "Don't Know";
+
+"K_LARGE_PLACEHOLDER" = "Large";
+"K_SMALL_PLACEHOLDER" = "Small";
+
+"K_ADD_HOSPITAL_DETAILS_PLACEHOLDER" = "Add Hospital Details";
+
+"K_SPECIALITY_PLACEHOLDER" = "Speciality";
+"K_ADD_TREATMENT_DETAILS_PLACEHOLDER" = "Add Treatment Details";
+
+
+// height Unit
+"K_FEET_PLACEHOLDER" = "ft.inch";
+"K_CM_PLACEHOLDER" = "cm";
+
+//Weight unit
+"K_KG_PLACEHOLDER" = "kgs";
+"K_LBS_PLACEHOLDER" = "lbs";
+
+//Blood Group type
+"A_PLUS_PLACEHOLDER" = "A+";
+"A_NEGATIVE_PLACEHOLDER" = "A-";
+"B_PLUS_PLACEHOLDER" = "B+";
+"B_NEGATIVE_PLACEHOLDER" = "B-";
+"O_PLUS_PLACEHOLDER" = "O+";
+"O_NEGATIVE_PLACEHOLDER" = "O-";
+"AB_PLUS_PLACEHOLDER" = "AB+";
+"AB_NEGATIVE_PLACEHOLDER" = "AB-";
+
+//MARK: For AddressDetailVC
+//==========================
+"K_ADDRESS_LINE1_PLACEHOLDER" = "Address Line 1";
+"K_CREATE_PROFILE_PLACEHOLDER" = "CREATE PROFILE";
+"K_NAME_PLACEHOLDER" = "Name";
+"K_CONTACT_NUMBER_PLACEHOLDER" = "Contact Number";
+
+//MARK: For BaseViewController
+//======================
+"K_DASHBOARD_SCREEN_TITLE" = "Dashboard";
+"K_APPOINTMENT_SCREEN_TITLE" = "Appointments";
+"K_MEASUREMENT_SCREEN_TITLE" = "Measurements";
+"K_NUTRITION_SCREEN_TITLE" = "Nutrition";
+"K_ACTIVITY_SCREEN_TITLE" = "Activity";
+"K_CALENDER_SCREEN_TITLE" = "Calendar";
+"K_EPRESCRIPTION_SCREEN_TITLE" = "ePrescription";
+"K_MEDICATION_REMINDER_SCREEN_TITLE" = "Medication Reminder";
+"K_SYMPTOMS_TITLE" = "Symptoms";
+"K_ATTACH_REPORT" = "Scan Report";
+"K_ADD_IMAGE" = "Add Image";
+"K_UPLOAD_IMAGE_TITLE" = "Upload Image";
+
+//MARK: DashBoardVC
+//=================
+"K_MY_BMI" = "MY BMI";
+"K_NEXT_SCHEDULE" = "NEXT SCHEDULE";
+"K_LAST_SEEN" = "LAST SENT";
+"K_LAST_APPOINTMENT_DATE" = "UPCOMING APPOINTMENT DATE";
+"K_LAST_REVIEWED" = "LAST REVIEWED";
+"K_CALORIES_CONSUMED_TEXT" = "CALORIES CONSUMED";
+"K_CALORIES_BURNT_TEXT" = "CALORIES BURNT";
+"K_WATER_INTAKE_TEXT" = "WATER INTAKE";
+
+"K_BEFORE" = "Before";
+"K_AFTER" = "After";
+"K_TIMELINE_PROGRESE" = "TIMELINE PROGRESE";
+//MARK: DateVC
+//========
+"K_CANCEL_BUTTON" = "Cancel";
+"K_DONE_BUTTON" = "Done";
+
+//MARK: ConfirmationVC
+//==============
+"K_CONFIRM_BUTTON" = "CONFRIM";
+"K_CONFIRMATION_BUTTON" = "CONFIRMATION!";
+"K_CONFIRMATION_CANCEL_BUTTTON" = "CANCEL";
+"K_BOOK_APPOINTMENT_CONFIRMATION" = "Are you sure you want to book appointment on ";
+
+//MARK: MedicationReminderVC
+//====================
+"K_SET_REMINDER_TITLE" = "SET REMINDER";
+"K_EXISTING_REMINDER_TITLE" = "Existing Reminder";
+"K_NAME_OF_DRUG" = "Name of drug";
+"K_START_DATE_TITLE" = "Start Date";
+"K_END_DATE_TITLE" = "End Date";
+"K_WEEKLY_BUTTON_TITLE" = "Weekly";
+"K_MONTHLY_BUTTON_TITLE" = "Monthly";
+"K_RECURRENCE_TITLE" = "Recurrence";
+"K_SCHEDULE_TITLE" = "Schedule";
+"K_REMINDER_TIME_TITLE" = "Reminder Time";
+"K_DOSAGE_TITLE" = "Dosage";
+"K_INSTRUCTTIONS_TITLE" = "Instructions";
+"K_ONCE_A_DAY_TITLE" = "Once a day";
+"K_TWICE_A_DAY_TITLE" = "Twice a day";
+"K_THRICE_A_DAY_TITLE" = "Thrice a day";
+"K_ONE_PILLS_TITLE" = "1";
+"K_TWO_PILLS_TITLE" = "2";
+"K_THREE_PILLS_TITLE" = "3";
+"K_PILL" = "Pill";
+"K_PILLS" = "Pills";
+"K_BEFORE_MEAL_TITLE" = "Before meal";
+"K_AFTER_MEAL_TITLE" = "After meal";
+"K_DURING_MEAL_TITLE" = "During meal";
+"K_NONE_TITLE" = "None";
+"K_SUN_TITLE" = "Sun";
+"K_MON_TITLE" = "Mon";
+"K_TUE_TITLE" = "Tue";
+"K_WED_TITLE" = "Wed";
+"K_THUR_TITLE" = "Thur";
+"K_FRI_TITLE" = "Fri";
+"K_SAT_TITLE" = "Sat";
+"K_DELETE_REMINDER_CONFIRMATION" = "Are you sure you want to Delete the Reminder?";
+
+
+//MARK: SearchFoodVC
+//==================
+"K_SELECT_FOOD_SCREEN_TITLE" = "Select Food";
+
+//MARK: NutritionVC
+//=================
+"K_CALORIES_TITLE" = "CALORIES";
+"K_CARBS_CAPS_TITLE" = "CARBS";
+"K_FATS_CAPS_TITLE" = "FATS";
+"K_PROTIEN_CAPS_TITLE" = "PROTEIN";
+"K_WATER_CAPS_TITLE" = "WATER";
+"K_ALL_TITLE" = "ALL";
+"K_BREAKFAST_TITLE" = "BREAKFAST";
+"K_LUNCH_TITLE" = "LUNCH";
+"K_DINNER_TITLE" = "DINNER";
+"K_SNACKS_TITLE" = "SNACKS";
+"K_ALL_SMALL_TITLE" = "all";
+"K_BREAKFAST_SMALL_TITLE" = "breakfast";
+"K_LUNCH_SMALL_TITLE" = "lunch";
+"K_DINNER_SMALL_TITLE" = "dinner";
+"K_SNACKS_SMALL_TITLE" = "snacks";
+"K_WEEK_PERFORMANCE_TITLE" = "WEEK PERFORMANCE";
+"K_GRAM_TITLE" = "g";
+"K_KILOGRAM_TITLE" = "kg";
+"K_LITRE_TITLE" = "ltr";
+"K_PREVIOUS_ATTACHMENT" = "Previous Attachment";
+"K_NO_PREVIOUS_DATES" = "No Previous Dates";
+"K_TODAY_TITLE" = "TODAY";
+
+
+//MARK: WeekPerformanceVC
+//========================
+"K_NUTRITION_PLAN_TITLE" = "NUTRITION PLAN";
+"K_MY_NUTRITION_TITLE" = "MY NUTRITION";
+"K_DAYS_TITLE" = "DAYS";
+"K_WEEK_PERFORMANCE_SCREEN_TITLE" = "Week Performance";
+
+//MARK: NutritionPlanVC
+//===============
+"K_NUTRITION_PLAN_SCREEN_TITLE" = "Nutrition Plan";
+"K_CARB_TITLE" = "Carb";
+"K_FATS_TITLE" = "Fats";
+"K_PROTIENS_TITLE" = "Proteins";
+"K_WATER_TITLE" = "Water";
+"K_NUTRIENTS_TITLE" = "Nutrients";
+"K_TARGET_TITLE" = "Target";
+"K_CONSUMED_TITLE" = "Consumed";
+"K_NO_NUTRITION_PLAN" = "No Nutrition Plan";
+
+//MARK: AddNutritionVC
+//===============
+"K_ADD_WATER" = "Add Water";
+"K_ADD_FOOD" = "Add Food";
+"K_SELECTMEAL_WATER" = "Select Meal/Water";
+"K_ADD_NUTRITION_SCREEN_TITLE" = "Add Nutrition";
+"K_ADD_FOOD_TITLE" = "Add Food";
+
+//MARK: ActivityVC
+//===========
+"K_DURATION_BUTTON" = "Duration";
+"K_DISTANCE_BUTTON" = "Distance";
+"K_CALORIES_BUTTON" = "Calories";
+"K_LAST7DAYS" = "LAST 7 DAYS";
+"K_AVG" = "avg";
+"K_MINUTES_UNIT" = "mins";
+"K_MINUTE_UNIT" = "min";
+"K_KILOMETER_UNIT" = "km";
+"K_KILOMETERS_UNIT" = "kms";
+"K_CALORIES_UNIT" = "kcal";
+
+//MARK: AddActivityVC
+//===============
+"K_ADD_ACTIVITY_SCREEN_TITLE" = "Add Activity";
+"K_DATE_TEXT" = "Date";
+"K_TIME_TEXT" = "Time";
+"K_SUBMIT_BUTTON" = "SUBMIT";
+"K_MY_RECENT" = "My Recent";
+"K_DISTANCE_UNIT_KMS" = "kms";
+"K_DISTANCE_UNIT_MILES" = "miles";
+"K_DURATION_UNIT_MINS" = "mins";
+"K_DURATION_UNIT_HOURS" = "hours";
+
+//MARK: Activity Plan
+//=============
+"K_ACTIVITY_PLAN_SCREEN_TITLE" = "Activity Plan";
+"K_CURRENT_TITLE" = "Current";
+"K_PREVIOUS_TITLE" = "Previous";
+"K_NO_ACTIVITY_PLAN" = "No activity plan";
+"K_NO_RECENT_ACTIVITY" = "No recent activity";
+
+//MARK: DosDontsVC
+//===============
+"K_DOS_TITLE" = "DO'S";
+"K_DONTS_TITLE" = "DON'TS";
+"K_FOODS_TO_AVOID_TITLE" = "FOODS TO AVOID";
+"K_DAILY_ALLOWANCES_TITLE" = "DAILY ALLOWANCES";
+"K_POINTS_TO_REMEMBER" = "POINTS TO REMEMBER";
+
+//MARK: MeasurementVC
+//===================
+"K_ATTACHED_REPORTS" = "ATTACHED REPORTS";
+
+//MARK: VitalVC
+//=============
+"K_NO_MEASUREMENT_DATA" = "No Measurement Data. Tap icon to Add Measurement.";
+
+//MARK: AddMeasurementVC
+//=======================
+"K_ADD_MEASUREMENT_SCREEN_TITLE" = "Add Measurements";
+"K_SELECT_TIME_TITLE" = "Select Time";
+"K_ICLOUD_TITLE" = "iCloud";
+"K_SAVE_BUTTON_TITLE" = "Save";
+"K_ADD_ATTACHMENT_BUTTON_TITLE" = "Add Attachment";
+
+//MARK: ImageDetailVC
+//====================
+"K_IMAGE_DETAIL_SCREEN_TITLE" = "Image Detail";
+
+//MARK:  MyMeasurementDetailVC
+//=========================
+"K_MY_MEASUREMENTS_DETAIL_SCREEN_TITLE_PLACEHOLDER" = "My Measurement";
+"K_SELECT_TEST_NAME_PLACEHOLDER" = "Select Test Name :";
+"K_ONE_WEEK_BUTTON_TITLE_PLACEHOLDER" = "1W";
+"K_ONE_MONTH_BUTTON_TITLE_PLACEHOLDER" = "1M";
+"K_THREE_MONTH_BUTTON_TITLE_PLACEHOLDER" = "3M";
+"K_SIX_MONTH_BUTTON_TITLE_PLACEHOLDER" = "6M";
+"K_ONE_YEAR_BUTTON_TITLE_PLACEHOLDER" = "1Y";
+"K_ALL_BUTTON_TITLE_PLACEHOLDER" = "All";
+"K_ATTACHMENTS_SECTION_TITLE_PLACEHOLDER" = "ATTACHMENTS";
+"K_NO_ATTACHED_REPORTS" = "No Attached Reports.";
+
+//MARK: NotificationVC
+//======================
+"K_NOTIFICATION_SCREEN_TITLE" = "Notifications";
+"K_NO_NOTIFICATION" = "No notification found!";
+"K_NO_LOGBOOK" = "No log book data found";
+
+//MARK: AddAppointmentVC
+//=======================
+"K_TIME_SLOTS_NOT_FOUND" = "No slot available for this date.";
+"K_NATURE_OF_APPOINTMENT" = "Nature of Appointment";
+"K_APPOINTMENT_DATE" = "Appointment Date";
+"K_VISIT_TYPE" = "Visit type";
+"K_SYMPTOMS" = "Symptoms";
+"K_VIDEO_CONSULTATION" = "Video Consultation";
+"K_PHYSICAL_CONSULTATION" = "Physical Consultation";
+"K_ADD_APPOINTMENT_SCREEN_TITLE" = "Add Appointment";
+"K_RESCHEDULE_APPOINTMENT_SCREEN_TITLE" = "Reschedule Appointment";
+"K_APPOINTMENT_BOOKED" = "APPOINTMENT BOOKED";
+"K_SUCCESSFULLY" = "SUCCESSFULLY";
+
+//MARK: SymptomVC
+//===============
+"K_OTHER_TITLE" = "others";
+"K_CHOOSE_SYMPTOMS_TITLE" = "Choose Symptoms";
+"K_TIME_SLOTS" = "Time Slots";
+"K_PLEASE_SPECIFY" = "Please Specify";
+
+//MARK: AppointmentBookedSuccessfullyVC
+//=====================================
+"K_OK_THANKS_TITLE" = "OK, THANKS";
+
+//MARK: ApppointmentListingVC
+//===========================
+"K_PENDING_STATUS" = "PENDING";
+"K_APPROVED_STATUS" = "APPROVED";
+"K_ATTENDED_STATUS" = "ATTENDED";
+"K_RESCHEDULED_STATUS" = "RESCHEDULED";
+"K_CANCELLED_STATUS" = "CANCELLED";
+"K_ROUTINE_STATUS" = "Routine";
+"K_EMERGENCY_STATUS" = "Emergency";
+"K_RESCHEDULE_STATUS" = "Reschedule";
+
+"K_UPCOMING_APPOINTMENT_TITLE" = "UPCOMING APPOINTMENTS";
+"K_APPOINTMENT_HISTORY_TITLE" = "APPOINTMENT HISTORY";
+"K_APPOINTMENT_LISTING_SCREN_TITLE" = "My Appointment";
+"K_NO_UPCOMING_APPOINTMENTS" = "No Upcoming Appointments.";
+"K_NO_APPOINTMENT_HISTORY" = "No Appointment History.";
+"K_NO_APPOINTMENT_SCHEDULED" = "No Appointment Data. Tap icon to Add Appointment.";
+"K_CANCEL_APPOINTMENT_TITLE" = "Are you sure you want to cancel this Appointment?";
+
+//MARK: Build ProfileVC
+//======================
+
+"K_GALLERY_TITLE" = "Gallery";
+"K_CAMERA_TITLE" = "Camera";
+"K_OK_TITLE" = "OK";
+
+//MARK: SideMenuVC
+//=================
+"K_GENERATE_HEALTH_REPORT_TITLE" = "Generate Health Report";
+"K_LOG_BOOK_TITLE" = "Log Book";
+"K_DISCHARGE_SUMMARY_TITLE" = "Discharge Summary";
+"K_MESSAGE_TITLE" = "Message";
+"K_NOTIFICATION_TITLE" = "Notifications";
+"K_CONNECTED_DEVICES_TITLE" = "Connected Devices";
+"K_USER_GUIDE_TITLE" = "User Guide";
+"K_HELP_FAQ_TITLE" = "Help/FAQ";
+
+//MARK: DischargeSummaryVC
+//========================
+"K_LAST_DISCHARGE_SUMMARY" = "LAST DISCHARGE SUMMARY";
+"K_FINAL_DIAGNOSIS" = "Final Diagnosis";
+"K_PROCEDURES" = "Procedures";
+"K_HOSPITAL_COURSE" = "Hospital Course";
+"K_DISCHARGE_MEDICATION" = "Discharge Medication";
+"K_FOLLOW_UP_APPOINTMENT" = "Follow Up Appointment";
+"K_DISCHARGE_ADVICE" = "Discharge Instructions & Advice";
+"K_LABORATORY_DATA" = "Labatory Data";
+"K_ILLNESS_HISTORY" = "Illness History";
+
+//MARK: Messages
+//==============
+"K_YEARS_AGO" = "yrs";
+"K_YEAR_AGO" = "yr";
+"K_MONTHS_AGO" = "months";
+"K_MONTH_AGO" = "month";
+"K_DAYS_AGO" = "days";
+"K_DAY_AGO" = "day";
+"K_HOURS_AGO" = "hrs";
+"K_HOUR_AGO" = "hr";
+"K_MINUTES_AGO" = "m";
+"K_MINUTE_AGO" = "m";
+"K_JUST_NOW" = "now";
+
+
+//MARK: SettingVC
+//===============
+"K_CHANGE_PASSWORD_TITLE" = "Change Password";
+"K_CHANGE_PHONENUMBER_TITLE" = "Change Phone Number";
+"K_TERMS_AND_CONDITION_TITLE" = "Terms & Conditions";
+"K_ABOUT_APP" = "About App";
+"K_LOGOUT" = "Logout";
+"K_SETTINGS_SCREEN_TITLE" = "Settings";
+"K_LOG_OUT_CONFIRMATION" = "Are you sure you want to logout?";
+
+//MARK: ChangePasswordVC
+//======================
+"K_OLD_PASSWORD" = "Current Password";
+"K_NEW_PASSWORD" = "New Password";
+"K_CONFIRM_NEW_PASSWORD" = "Confirm New Password";
+"K_CHANGE_PASSWORD_CONFIRMATION_TEXT" = "An email has been sent to your registered email Id for change of password.";
+"K_NEW_MOBILE_NUMBER" = "New mobile Number";
+"K_OTP_SEND_OLD_NUMBER" = "An OTP will be send to the old mobile number to verify the change.";
+"K_CONFIRMATION" = "Confirmation!";
+
+
+//MARK: GenrateHealthReportVC
+//===========================
+"K_GENERATE_HEALTH_REPORT_BUTTON_TITLE" = "Send";
+
+//MARK: CMSVC
+//===========
+"K_CMS_SCREEN_TITLE" = "CMS";
+
+//MARK: AddSymptomsVC
+//=====================
+"K_ADD_SYMPTOMS_TITLE" = "Add Symptoms";
+"K_WRITE_SYMPTOMS" = "Select Symptoms";
+"K_MOST_COMMON" = "Most Common";
+"K_STRENGTH" = "Severity";
+"K_FREQUENCY" = "Duration";
+
+//MARK:- ConnectedDevicesVC
+//========================
+"K_APPLICATION_TITLE" = "Applications";
+"K_DEVICES_TITLE" = "Devices";
+"K_CONNECTED_TITLE" = "Connected";
+"K_AVAILIABLE_TITLE" = "Availiable";
+//MARK:- APP Messages
+//===================
+//MARK: Login Flow
+//================
+"M_EMPTY_EMAIL_AND_MOBILE_NUMBER" = "Please enter the email address or mobile number.";
+"M_VALID_EMAIL" = "Please enter valid email id.";
+"M_EMPTY_EMAIL" = "Please enter the email address.";
+"M_VALID_EMAIL_AND_MOBILE_NUMBER" = "Please enter the valid email or mobile number.";
+"M_VALID_MOBILE_NUMBER" = "Please enter a valid mobile number.";
+"M_EMPTY_PASSWORD" = "Please enter password.";
+"M_PASSWORD_MORE_THAN_SIX_CHAR" = "Password should be from 6 to 16 characters.";
+"M_MOBILE_NUMBER_LESS_THAN_TEN_DIGITS" = "Mobile number should be in 10 digits.";
+"M_PASSWORD_AND_CONFIRM_PASSWORD_MISMATCHED" = "Password and confirm password does not matched.";
+"M_EMPTY_COUNTRY_CODE" = "Please enter the country code.";
+"M_EMPTY_MOBILE_NUMBER" = "Please enter phone number.";
+"M_EMPTY_CONFIRM_PASSWORD" = "Please enter confirm password.";
+"M_VALID_AUTHORIZATION_CODE" = "Please enter a valid authorisation code.";
+"M_AUTHORIZATION_CODE_LESS_THAN_SIX_CHAR" = "Authorization code should be six characters long.";
+
+//MARK: BuildProfileVC
+//=====================
+"M_EMPTY_FIRST_NAME" = "Please enter the name.";
+
+//MARK: Add Appointment
+//======================
+"M_SELECT_APPOINTMENT_DATE" = "Please select date of appointment.";
+"M_SELECT_APPOINTMENT_TIME" = "Please select a time slot for appointment.";
+"M_SELECT_VISIT_TYPE" = "Please select a visit type.";
+"M_EMPTY_SPECIFY_SYMPTOMS" = "Please add description.";
+"M_SELECT_SYMPTOMS" = "Please select the symptoms.";
+"M_NO_SYMPTOMS" = "No symptom available";
+
+
+//MARK: Add Measurement
+//======================
+"M_SELECT_VITALS" = "Please select the vitals.";
+"M_ADD_ATTACHMENTS" = "Please add attachments";
+"M_ENTER_ALL_VALUES_OF_VITALS" = "Please enter the all values of vitals";
+"M_ENTER_MEASUREMENT_DATE" = "Please select the measurement date.";
+"M_ENTER_MEASUREMENT_TIME" = "Please select the measurement time.";
+"M_SELECT_ONLY_PDF" = "Please select only pdf file.";
+
+//MARK: Medication Reminder
+//==========================
+"M_EMPTY_NAME_OF_DRUG" = "Please enter the name of drug.";
+"M_EMPTY_START_DATE" = "Please select the start date.";
+"M_EMPTY_END_DATE" = "Please select the end date.";
+"M_SELECT_RECURRENCE" = "Please select the recurrence day.";
+"M_SELECT_SCHEDULE" = "Please select the schedule.";
+"M_REMINDER_TIME" = "Please select the reminder time.";
+"M_SELECT_DOSAGE" = "Please select the dosage.";
+"M_SELECT_INSTRUCETION" = "Please select the instruction.";
+"M_START_DATE_LESS_THAN_END_DATE" = "Start Date should be less than end Date.";
+"M_EMPTY_EXISTING_REMINDER" = "No existing reminders.";
+
+//MARK: Add Activity
+//==================
+"M_ENTER_ACTIVITY_DATE" = "Please select the activity date.";
+"M_ENTER_ACTIVITY_TIME" = "Please select the activity time.";
+"M_ENTER_ACTIVITY_TYPE" = "Please select the Activity";
+"M_ENTER_DURATION" = "Please enter the duration more than 0";
+"M_ENTER_CALORIES" = "Please enter the calories burnt more than 0";
+"M_ENTER_STEPS" = "Please enter the steps.";
+"M_ENTER_DISTANCE" = "Please enter the distance more than 0.";
+
+//MARK:- Add Nutrition
+//=====================
+"K_SELECT_A_MEAL" = "Please select a Meal.";
+"K_ENTER_VALID_WATER_AMOUNT" = "Please enter valid water amount.";
+"K_SELECT_A_NUTRITION_DATE" = "Please select Nutrition Date.";
+"K_SELECT_A_NUTRITION_TIME" = "Please select Nutrition Time.";
+"K_ENTER_VALID_FOOD_QUANTITY" = "Please enter valid food quantity";
+"K_ENTER_CURRENT_FOOD_DETAILS" = "Please enter current food details";
+"K_SELECTED_FOOD_AS_WATER" = "Please selected Food as Water";
+"K_SELECTED_MEAL_TYPE_AS_WATER" = "Please selected meal type as Water";
+
+//MARK: BuildProfileVC
+//=====================
+"M_EMPTY_COUNTRY_LIST" = "Country List is empty.";
+"M_EMPTY_STATE_LIST" = "State List is empty.";
+"M_EMPTY_CITY_LIST" = "City List is empty";
+
+//MARK:- MessageDetailVC
+//======================
+"M_EMPTY_MESSAGE" = "Please enter the message.";
+
+//MARK:- AddSymptoms
+//==================
+"M_EMPTY_SYMPTOMS" = "Please enter the Symptoms.";
+"M_EMPTY_SYMPTOMS_DATE" = "Please enter the Symptom Date.";
+"M_EMPTY_SYMPTOMS_TIME" = "Please enter the Symptom Time.";
+"M_EMPTY_SYMPTOM_SEVERITY" = "Please select the severity";
+"M_EMPTY_SYMPTOM_DURATION" = "Please select the Duration";
+
+//MARK:- ChangePassowrd
+//======================
+"M_EMPTY_NEW_PASSWORD" = "Please enter new password";
+"M_EMPTY_OLD_PASSWORD" = "Please enter current password.";
+"M_CURR_PASSWORD_LIMIT" = "Current password should be from 6 to 16 characters.";
+"M_NEW_PASS_LIMIT" = "New password should be from 6 to 16 characters.";
+"M_DIFFERENT_PASSWORD" = "New password and confirm password must be same.";
+"M_CONFIRM_PASS_LIMIT" = "Confirm password should be from 6 to 16 characters";
+
+//MARK:- iCloud Identifier
+//========================
+"K_ICLOUD_INDENTFIER" = "iCloud.com.mutelcor.com";
+"K_ICLOUD_PERMISSION_TEXT" = "To Sync data in calendar. Please enable the iCloud Services.";
+
+//MARK:- Connected Device
+//========================
+"K_IHEALTH" = "iHealth";
+"K_FITBIT" = "Fitbit";
+
+//MARK:- TimeLine
+//========================
+
+"K_TIMELINE" = "Timeline Progress";

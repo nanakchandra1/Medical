@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - Charts (3.0.5):
+    - Charts/Core (= 3.0.5)
+  - Charts/Core (3.0.5)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
+  - FloatRatingView (2.0)
+  - Floaty (4.0.0)
+  - FSCalendar (2.7.9)
+  - GTToast (0.3.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - KDCircularProgress (1.5.2)
+  - MBCircularProgressBar (0.3.5)
+  - MXParallaxHeader (0.6.1)
+  - PageMenu (2.0.0)
+  - RSKImageCropper (2.0.0)
+  - SpreadsheetView (0.8.4)
+  - Starscream (2.1.0)
+  - SwiftRandom (1.0.0)
+  - SwiftSoup (1.6.0)
+  - SwiftyJSON (3.1.4)
+  - TransitionButton (0.3.0)
+  - TTTAttributedLabel (2.0.0)
+  - WebRTC (63.11.20455)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Charts
+  - Crashlytics
+  - Fabric
+  - FloatRatingView
+  - Floaty
+  - FSCalendar
+  - GTToast
+  - IQKeyboardManagerSwift
+  - KDCircularProgress
+  - MBCircularProgressBar
+  - MXParallaxHeader
+  - PageMenu
+  - RSKImageCropper
+  - SpreadsheetView
+  - Starscream
+  - SwiftRandom
+  - SwiftSoup
+  - SwiftyJSON
+  - TransitionButton
+  - TTTAttributedLabel
+  - WebRTC
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  FloatRatingView: 857ab8f10040d06a42fc979f486c8f9fecd2f2e5
+  Floaty: 4f88811bbf08521807f42355db6a9c0db85d5d78
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GTToast: 5c5fa8fb35091f73be09d8c5a99bbf723a081263
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+  RSKImageCropper: d9a1acbc0600bf8decc8f0d21895872c99a9e4cf
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  Starscream: 168fd64c345fb2dea71b0a869c482aeffcf866e4
+  SwiftRandom: 437275c63500ddf5a565cbd56996fb23f12cfc3d
+  SwiftSoup: db0634b1571304cfef38eb0ee6505eb7d06765f1
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TransitionButton: 0bf7e5ffe80030f9d10d57983a04acf2f511998a
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  WebRTC: f2a6203584745fe53532633397557876b5d71640
+
+PODFILE CHECKSUM: 5875f55b4bb2c8487417a531ce3b0320bbaab88e
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PersonalInfoHeaderCell" customModule="Mutelcor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yxl-q9-GWW">
+                    <rect key="frame" x="0.0" y="10" width="375" height="81"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQd-h5-AX0">
+                            <rect key="frame" x="22" y="26.5" width="331" height="28"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFC-pp-dC8">
+                                    <rect key="frame" x="0.0" y="0.0" width="291" height="28"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHK-FW-dAJ" customClass="IndexedButton" customModule="Mutelcor" customModuleProvider="target">
+                                    <rect key="frame" x="291" y="0.0" width="40" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="nvj-3c-LZp"/>
+                                    </constraints>
+                                    <state key="normal" image="icActivityplanAdd"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6s-Af-YGa">
+                            <rect key="frame" x="25" y="80" width="325" height="1"/>
+                            <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="fqm-6M-kHC"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="J6s-Af-YGa" firstAttribute="leading" secondItem="Yxl-q9-GWW" secondAttribute="leading" constant="25" id="IHa-Fq-cTw"/>
+                        <constraint firstAttribute="bottom" secondItem="J6s-Af-YGa" secondAttribute="bottom" id="Kum-aS-C6O"/>
+                        <constraint firstItem="HQd-h5-AX0" firstAttribute="leading" secondItem="Yxl-q9-GWW" secondAttribute="leading" constant="22" id="YWs-Y6-DXL"/>
+                        <constraint firstAttribute="trailing" secondItem="HQd-h5-AX0" secondAttribute="trailing" constant="22" id="iBI-FQ-wwh"/>
+                        <constraint firstItem="HQd-h5-AX0" firstAttribute="centerY" secondItem="Yxl-q9-GWW" secondAttribute="centerY" id="oYt-Tx-GcK"/>
+                        <constraint firstAttribute="trailing" secondItem="J6s-Af-YGa" secondAttribute="trailing" constant="25" id="xWN-gc-C3Z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration" identifier="personalInfoHeaderCell"/>
+            <constraints>
+                <constraint firstItem="Yxl-q9-GWW" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="L9w-vi-oL8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yxl-q9-GWW" secondAttribute="trailing" id="Ma2-pV-LqX"/>
+                <constraint firstItem="Yxl-q9-GWW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Vpu-iJ-1SN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="Yxl-q9-GWW" secondAttribute="top" constant="-10" id="Yrj-Tu-Wyu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cellBackgroundView" destination="Yxl-q9-GWW" id="N7b-Bt-W07"/>
+                <outlet property="expandButtonOutlt" destination="eHK-FW-dAJ" id="anG-u2-z0b"/>
+                <outlet property="headerTitle" destination="WFC-pp-dC8" id="eZ2-PV-IfP"/>
+                <outlet property="sepratorView" destination="J6s-Af-YGa" id="raW-c1-mde"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-235.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icActivityplanAdd" width="28" height="28"/>
+    </resources>
+</document>
